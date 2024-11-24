@@ -1,0 +1,10 @@
+Cambios:
+Recuerda esta es la version estable 
+
+archivos nuevos:
+
+api_generacion.py  :  fucnionalidades de api para la busqueda por generacion
+listas_pokemon.py : contiene 9 listas donde cada lista estan los pokemons correspondientes.
+
+se actualizo principal_teorico.py
+ahora con las funcionalidades de busqueda por generacion donde es fiel a como funciona la busqueda de la generacion 1

@@ -1,0 +1,3937 @@
+{
+    "bulbasaur": {
+        "descripcion": "Una rara semilla le fue plantada en el lomo al nacer.\nLa planta brota y crece con este Pokémon.",
+        "tipo": [
+            "grass",
+            "poison"
+        ],
+        "peso": 6.9,
+        "altura": 0.7,
+        "habilidad": [
+            "chlorophyll",
+            "overgrow"
+        ],
+        "stats": {
+            "ps": 45,
+            "ataque": 49,
+            "defensa": 49,
+            "special-ataque": 65,
+            "defensa_especial": 65,
+            "velocidad": 45
+        },
+        "animacion": "gifs\\1.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\1.GIF",
+        "mini": "iconos\\1.PNG",
+        "grito": "sounds\\cries\\bulbasaur.wav"
+    },
+    "ivysaur": {
+        "descripcion": "Este Pokémon tiene un bulbo en el lomo. Dicen que,\nal absorber nutrientes, el bulbo se transforma en una flor grande.",
+        "tipo": [
+            "grass",
+            "poison"
+        ],
+        "peso": 13.0,
+        "altura": 1.0,
+        "habilidad": [
+            "chlorophyll",
+            "overgrow"
+        ],
+        "stats": {
+            "ps": 60,
+            "ataque": 62,
+            "defensa": 63,
+            "special-ataque": 80,
+            "defensa_especial": 80,
+            "velocidad": 60
+        },
+        "animacion": "gifs\\2.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\2.GIF",
+        "mini": "iconos\\2.PNG",
+        "grito": "sounds\\cries\\ivysaur.wav"
+    },
+    "venusaur": {
+        "descripcion": "Llena su cuerpo de energía con los rayos solares que captan los anchos pétalos de su flor.",
+        "tipo": [
+            "grass",
+            "poison"
+        ],
+        "peso": 100.0,
+        "altura": 2.0,
+        "habilidad": [
+            "chlorophyll",
+            "overgrow"
+        ],
+        "stats": {
+            "ps": 80,
+            "ataque": 82,
+            "defensa": 83,
+            "special-ataque": 100,
+            "defensa_especial": 100,
+            "velocidad": 80
+        },
+        "animacion": "gifs\\3.GIF",
+        "femenino": "gifs_female\\3.GIF",
+        "shiny": "gifs_shiny\\3.GIF",
+        "mini": "iconos\\3.PNG",
+        "grito": "sounds\\cries\\venusaur.wav"
+    },
+    "charmander": {
+        "descripcion": "La llama de su cola indica la fuerza vital de Charmander. Será brillante si está sano.",
+        "tipo": [
+            "fire"
+        ],
+        "peso": 8.5,
+        "altura": 0.6,
+        "habilidad": [
+            "blaze",
+            "solar-power"
+        ],
+        "stats": {
+            "ps": 39,
+            "ataque": 52,
+            "defensa": 43,
+            "special-ataque": 60,
+            "defensa_especial": 50,
+            "velocidad": 65
+        },
+        "animacion": "gifs\\4.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\4.GIF",
+        "mini": "iconos\\4.PNG",
+        "grito": "sounds\\cries\\charmander.wav"
+    },
+    "charmeleon": {
+        "descripcion": "Suele usar la cola para derribar a su rival. Cuando lo tira, se vale de sus afiladas garras para acabar con él.",
+        "tipo": [
+            "fire"
+        ],
+        "peso": 19.0,
+        "altura": 1.1,
+        "habilidad": [
+            "blaze",
+            "solar-power"
+        ],
+        "stats": {
+            "ps": 58,
+            "ataque": 64,
+            "defensa": 58,
+            "special-ataque": 80,
+            "defensa_especial": 65,
+            "velocidad": 80
+        },
+        "animacion": "gifs\\5.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\5.GIF",
+        "mini": "iconos\\5.PNG",
+        "grito": "sounds\\cries\\.charmeleon.wav"
+    },
+    "charizard": {
+        "descripcion": "Cuando lanza una descarga de fuego supercaliente, la roja llama de su cola brilla más intensamente.",
+        "tipo": [
+            "flying",
+            "fire"
+        ],
+        "peso": 90.5,
+        "altura": 1.7,
+        "habilidad": [
+            "blaze",
+            "solar-power"
+        ],
+        "stats": {
+            "ps": 78,
+            "ataque": 84,
+            "defensa": 78,
+            "special-ataque": 109,
+            "defensa_especial": 85,
+            "velocidad": 100
+        },
+        "animacion": "gifs\\6.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\6.GIF",
+        "mini": "iconos\\6.PNG",
+        "grito": "sounds\\cries\\charizard.wav"
+    },
+    "squirtle": {
+        "descripcion": "Se protege con su caparazón y luego contraataca lanzando agua a presión cuando tiene oportunidad.",
+        "tipo": [
+            "water"
+        ],
+        "peso": 9.0,
+        "altura": 0.5,
+        "habilidad": [
+            "torrent",
+            "rain-dish"
+        ],
+        "stats": {
+            "ps": 44,
+            "ataque": 48,
+            "defensa": 65,
+            "special-ataque": 50,
+            "defensa_especial": 64,
+            "velocidad": 43
+        },
+        "animacion": "gifs\\7.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\7.GIF",
+        "mini": "iconos\\7.PNG",
+        "grito": "sounds\\cries\\squirtle.wav"
+    },
+    "wartortle": {
+        "descripcion": "Si es golpeado, esconderá su cabeza. Aun así, su cola puede seguir golpeando.",
+        "tipo": [
+            "water"
+        ],
+        "peso": 22.5,
+        "altura": 1.0,
+        "habilidad": [
+            "torrent",
+            "rain-dish"
+        ],
+        "stats": {
+            "ps": 59,
+            "ataque": 63,
+            "defensa": 80,
+            "special-ataque": 65,
+            "defensa_especial": 80,
+            "velocidad": 58
+        },
+        "animacion": "gifs\\8.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\8.GIF",
+        "mini": "iconos\\8.PNG",
+        "grito": "sounds\\cries\\wartortle.wav"
+    },
+    "blastoise": {
+        "descripcion": "Para acabar con su enemigo, lo aplasta con el peso de\nsu cuerpo. En momentos de apuro, se esconde en el caparazón.",
+        "tipo": [
+            "water"
+        ],
+        "peso": 85.5,
+        "altura": 1.6,
+        "habilidad": [
+            "torrent",
+            "rain-dish"
+        ],
+        "stats": {
+            "ps": 79,
+            "ataque": 83,
+            "defensa": 100,
+            "special-ataque": 85,
+            "defensa_especial": 105,
+            "velocidad": 78
+        },
+        "animacion": "gifs\\9.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\9.GIF",
+        "mini": "iconos\\9.PNG",
+        "grito": "sounds\\cries\\blastoise.wav"
+    },
+    "caterpie": {
+        "descripcion": "Para protegerse despide un hedor horrible de sus antenas, con el que repele a sus enemigos.",
+        "tipo": [
+            "bug"
+        ],
+        "peso": 2.9,
+        "altura": 0.3,
+        "habilidad": [
+            "run-away",
+            "shield-dust"
+        ],
+        "stats": {
+            "ps": 45,
+            "ataque": 30,
+            "defensa": 35,
+            "special-ataque": 20,
+            "defensa_especial": 20,
+            "velocidad": 45
+        },
+        "animacion": "gifs\\10.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\10.GIF",
+        "mini": "iconos\\10.PNG",
+        "grito": "sounds\\cries\\caterpie.wav"
+    },
+    "metapod": {
+        "descripcion": "Su frágil cuerpo está recubierto de una coraza dura\ncomo el acero. Permanece quieto en su desarrollo.",
+        "tipo": [
+            "bug"
+        ],
+        "peso": 9.9,
+        "altura": 0.7,
+        "habilidad": [
+            "shed-skin"
+        ],
+        "stats": {
+            "ps": 50,
+            "ataque": 20,
+            "defensa": 55,
+            "special-ataque": 25,
+            "defensa_especial": 25,
+            "velocidad": 30
+        },
+        "animacion": "gifs\\11.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\11.GIF",
+        "mini": "iconos\\11.PNG",
+        "grito": "sounds\\cries\\metapod.wav"
+    },
+    "butterfree": {
+        "descripcion": "Adora el néctar de las flores. Puede localizar hasta las más pequeñas cantidades de polen.",
+        "tipo": [
+            "bug",
+            "flying"
+        ],
+        "peso": 32.0,
+        "altura": 1.1,
+        "habilidad": [
+            "compound-eyes",
+            "tinted-lens"
+        ],
+        "stats": {
+            "ps": 60,
+            "ataque": 45,
+            "defensa": 50,
+            "special-ataque": 90,
+            "defensa_especial": 80,
+            "velocidad": 70
+        },
+        "animacion": "gifs\\12.GIF",
+        "femenino": "gifs_female\\12.GIF",
+        "shiny": "gifs_shiny\\12.GIF",
+        "mini": "iconos\\12.PNG",
+        "grito": "sounds\\cries\\butterfree.wav"
+    },
+    "weedle": {
+        "descripcion": "Suele habitar bosques y praderas. Tiene un afilado y venenoso aguijón de unos 5 cm encima de la cabeza.",
+        "tipo": [
+            "poison",
+            "bug"
+        ],
+        "peso": 3.2,
+        "altura": 0.3,
+        "habilidad": [
+            "run-away",
+            "shield-dust"
+        ],
+        "stats": {
+            "ps": 40,
+            "ataque": 35,
+            "defensa": 30,
+            "special-ataque": 20,
+            "defensa_especial": 20,
+            "velocidad": 50
+        },
+        "animacion": "gifs\\13.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\13.GIF",
+        "mini": "iconos\\13.PNG",
+        "grito": "sounds\\cries\\weedle.wav"
+    },
+    "kakuna": {
+        "descripcion": "Casi incapaz de moverse, este Pokémon solo puede endurecer su caparazón para protegerse.",
+        "tipo": [
+            "poison",
+            "bug"
+        ],
+        "peso": 10.0,
+        "altura": 0.6,
+        "habilidad": [
+            "shed-skin"
+        ],
+        "stats": {
+            "ps": 45,
+            "ataque": 25,
+            "defensa": 50,
+            "special-ataque": 25,
+            "defensa_especial": 25,
+            "velocidad": 35
+        },
+        "animacion": "gifs\\14.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\14.GIF",
+        "mini": "iconos\\14.PNG",
+        "grito": "sounds\\cries\\kakuna.wav"
+    },
+    "beedrill": {
+        "descripcion": "Tiene 3 aguijones venenosos en sus patas y cola. Suelen pinchar a sus enemigos repetidas veces.",
+        "tipo": [
+            "poison",
+            "bug"
+        ],
+        "peso": 29.5,
+        "altura": 1.0,
+        "habilidad": [
+            "swarm",
+            "sniper"
+        ],
+        "stats": {
+            "ps": 65,
+            "ataque": 90,
+            "defensa": 40,
+            "special-ataque": 45,
+            "defensa_especial": 80,
+            "velocidad": 75
+        },
+        "animacion": "gifs\\15.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\15.GIF",
+        "mini": "iconos\\15.PNG",
+        "grito": "sounds\\cries\\beedrill.wav"
+    },
+    "pidgey": {
+        "descripcion": "Muy común en bosques y selvas. Aletea al nivel del suelo para levantar la gravilla.",
+        "tipo": [
+            "flying",
+            "normal"
+        ],
+        "peso": 1.8,
+        "altura": 0.3,
+        "habilidad": [
+            "keen-eye",
+            "big-pecks",
+            "tangled-feet"
+        ],
+        "stats": {
+            "ps": 40,
+            "ataque": 45,
+            "defensa": 40,
+            "special-ataque": 35,
+            "defensa_especial": 35,
+            "velocidad": 56
+        },
+        "animacion": "gifs\\16.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\16.GIF",
+        "mini": "iconos\\16.PNG",
+        "grito": "sounds\\cries\\pidgey.wav"
+    },
+    "pidgeotto": {
+        "descripcion": "Tiene unas garras desarrolladas. Puede atrapar un\nExeggcute y transportarlo desde una distancia de casi 100 km.",
+        "tipo": [
+            "flying",
+            "normal"
+        ],
+        "peso": 30.0,
+        "altura": 1.1,
+        "habilidad": [
+            "keen-eye",
+            "big-pecks",
+            "tangled-feet"
+        ],
+        "stats": {
+            "ps": 63,
+            "ataque": 60,
+            "defensa": 55,
+            "special-ataque": 50,
+            "defensa_especial": 50,
+            "velocidad": 71
+        },
+        "animacion": "gifs\\17.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\17.GIF",
+        "mini": "iconos\\17.PNG",
+        "grito": "sounds\\cries\\pidgeotto.wav"
+    },
+    "pidgeot": {
+        "descripcion": "Cuando caza, vuela muy deprisa a ras del agua y sorprende a inocentes presas como Magikarp.",
+        "tipo": [
+            "flying",
+            "normal"
+        ],
+        "peso": 39.5,
+        "altura": 1.5,
+        "habilidad": [
+            "keen-eye",
+            "big-pecks",
+            "tangled-feet"
+        ],
+        "stats": {
+            "ps": 83,
+            "ataque": 80,
+            "defensa": 75,
+            "special-ataque": 70,
+            "defensa_especial": 70,
+            "velocidad": 101
+        },
+        "animacion": "gifs\\18.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\18.GIF",
+        "mini": "iconos\\18.PNG",
+        "grito": "sounds\\cries\\pidgeot.wav"
+    },
+    "rattata": {
+        "descripcion": "Vive allí donde haya comida disponible. Busca todo el día, sin descanso, algo comestible.",
+        "tipo": [
+            "normal"
+        ],
+        "peso": 3.5,
+        "altura": 0.3,
+        "habilidad": [
+            "run-away",
+            "guts",
+            "hustle"
+        ],
+        "stats": {
+            "ps": 30,
+            "ataque": 56,
+            "defensa": 35,
+            "special-ataque": 25,
+            "defensa_especial": 35,
+            "velocidad": 72
+        },
+        "animacion": "gifs\\19.GIF",
+        "femenino": "gifs_female\\19.GIF",
+        "shiny": "gifs_shiny\\19.GIF",
+        "mini": "iconos\\19.PNG",
+        "grito": "sounds\\cries\\rattata.wav"
+    },
+    "raticate": {
+        "descripcion": "Lima sus colmillos royendo objetos duros. Con ellos puede destruir incluso paredes de hormigón.",
+        "tipo": [
+            "normal"
+        ],
+        "peso": 18.5,
+        "altura": 0.7,
+        "habilidad": [
+            "run-away",
+            "guts",
+            "hustle"
+        ],
+        "stats": {
+            "ps": 55,
+            "ataque": 81,
+            "defensa": 60,
+            "special-ataque": 50,
+            "defensa_especial": 70,
+            "velocidad": 97
+        },
+        "animacion": "gifs\\20.GIF",
+        "femenino": "gifs_female\\20.GIF",
+        "shiny": "gifs_shiny\\20.GIF",
+        "mini": "iconos\\20.PNG",
+        "grito": "sounds\\cries\\raticate.wav"
+    },
+    "spearow": {
+        "descripcion": "Muy protector de su territorio, mueve sus cortas alas sin descanso para lanzarse a toda velocidad.",
+        "tipo": [
+            "flying",
+            "normal"
+        ],
+        "peso": 2.0,
+        "altura": 0.3,
+        "habilidad": [
+            "keen-eye",
+            "sniper"
+        ],
+        "stats": {
+            "ps": 40,
+            "ataque": 60,
+            "defensa": 30,
+            "special-ataque": 31,
+            "defensa_especial": 31,
+            "velocidad": 70
+        },
+        "animacion": "gifs\\21.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\21.GIF",
+        "mini": "iconos\\21.PNG",
+        "grito": "sounds\\cries\\spearow.wav"
+    },
+    "fearow": {
+        "descripcion": "Con sus enormes y magníficas alas, puede seguir volando sin tener que aterrizar para descansar.",
+        "tipo": [
+            "flying",
+            "normal"
+        ],
+        "peso": 38.0,
+        "altura": 1.2,
+        "habilidad": [
+            "keen-eye",
+            "sniper"
+        ],
+        "stats": {
+            "ps": 65,
+            "ataque": 90,
+            "defensa": 65,
+            "special-ataque": 61,
+            "defensa_especial": 61,
+            "velocidad": 100
+        },
+        "animacion": "gifs\\22.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\22.GIF",
+        "mini": "iconos\\22.PNG",
+        "grito": "sounds\\cries\\fearow.wav"
+    },
+    "ekans": {
+        "descripcion": "Cuanto más viejo, más crece este Pokémon. Por la noche, descansa en las ramas de los árboles.",
+        "tipo": [
+            "poison"
+        ],
+        "peso": 6.9,
+        "altura": 2.0,
+        "habilidad": [
+            "unnerve",
+            "intimidate",
+            "shed-skin"
+        ],
+        "stats": {
+            "ps": 35,
+            "ataque": 60,
+            "defensa": 44,
+            "special-ataque": 40,
+            "defensa_especial": 54,
+            "velocidad": 55
+        },
+        "animacion": "gifs\\23.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\23.GIF",
+        "mini": "iconos\\23.PNG",
+        "grito": "sounds\\cries\\ekans.wav"
+    },
+    "arbok": {
+        "descripcion": "El dibujo que tiene en la panza aterroriza. Los rivales más débiles salen huyendo al verlo.",
+        "tipo": [
+            "poison"
+        ],
+        "peso": 65.0,
+        "altura": 3.5,
+        "habilidad": [
+            "unnerve",
+            "intimidate",
+            "shed-skin"
+        ],
+        "stats": {
+            "ps": 60,
+            "ataque": 95,
+            "defensa": 69,
+            "special-ataque": 65,
+            "defensa_especial": 79,
+            "velocidad": 80
+        },
+        "animacion": "gifs\\24.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\24.GIF",
+        "mini": "iconos\\24.PNG",
+        "grito": "sounds\\cries\\arbok.wav"
+    },
+    "pikachu": {
+        "descripcion": "Levanta su cola para vigilar los alrededores. A veces, puede ser alcanzado por un rayo en esa pose.",
+        "tipo": [
+            "electric"
+        ],
+        "peso": 6.0,
+        "altura": 0.4,
+        "habilidad": [
+            "lightning-rod",
+            "static"
+        ],
+        "stats": {
+            "ps": 35,
+            "ataque": 55,
+            "defensa": 40,
+            "special-ataque": 50,
+            "defensa_especial": 50,
+            "velocidad": 90
+        },
+        "animacion": "gifs\\25.GIF",
+        "femenino": "gifs_female\\25.GIF",
+        "shiny": "gifs_shiny\\25.GIF",
+        "mini": "iconos\\25.PNG",
+        "grito": "sounds\\cries\\pikachu.wav"
+    },
+    "raichu": {
+        "descripcion": "Cuando se carga de electricidad, sus músculos se tensan y se vuelve más agresivo de lo normal.",
+        "tipo": [
+            "electric"
+        ],
+        "peso": 30.0,
+        "altura": 0.8,
+        "habilidad": [
+            "lightning-rod",
+            "static"
+        ],
+        "stats": {
+            "ps": 60,
+            "ataque": 90,
+            "defensa": 55,
+            "special-ataque": 90,
+            "defensa_especial": 80,
+            "velocidad": 110
+        },
+        "animacion": "gifs\\26.GIF",
+        "femenino": "gifs_female\\26.GIF",
+        "shiny": "gifs_shiny\\26.GIF",
+        "mini": "iconos\\26.PNG",
+        "grito": "sounds\\cries\\raichu.wav"
+    },
+    "sandshrew": {
+        "descripcion": "Este Pokémon permanece bajo tierra. Si se siente amenazado, se enrosca para defenderse.",
+        "tipo": [
+            "ground"
+        ],
+        "peso": 12.0,
+        "altura": 0.6,
+        "habilidad": [
+            "sand-veil",
+            "sand-rush"
+        ],
+        "stats": {
+            "ps": 50,
+            "ataque": 75,
+            "defensa": 85,
+            "special-ataque": 20,
+            "defensa_especial": 30,
+            "velocidad": 40
+        },
+        "animacion": "gifs\\27.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\27.GIF",
+        "mini": "iconos\\27.PNG",
+        "grito": "sounds\\cries\\sandshrew.wav"
+    },
+    "sandslash": {
+        "descripcion": "Si cava a gran velocidad, puede que se le caigan las garras y púas. Vuelven a crecerle en un día.",
+        "tipo": [
+            "ground"
+        ],
+        "peso": 29.5,
+        "altura": 1.0,
+        "habilidad": [
+            "sand-veil",
+            "sand-rush"
+        ],
+        "stats": {
+            "ps": 75,
+            "ataque": 100,
+            "defensa": 110,
+            "special-ataque": 45,
+            "defensa_especial": 55,
+            "velocidad": 65
+        },
+        "animacion": "gifs\\28.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\28.GIF",
+        "mini": "iconos\\28.PNG",
+        "grito": "sounds\\cries\\sandslash.wav"
+    },
+    "nidoran-f": {
+        "descripcion": "Aunque pequeñas, sus venenosas púas son muy\npeligrosas. Tienen un cuerno más pequeño que los machos.",
+        "tipo": [
+            "poison"
+        ],
+        "peso": 7.0,
+        "altura": 0.4,
+        "habilidad": [
+            "rivalry",
+            "poison-point",
+            "hustle"
+        ],
+        "stats": {
+            "ps": 55,
+            "ataque": 47,
+            "defensa": 52,
+            "special-ataque": 40,
+            "defensa_especial": 40,
+            "velocidad": 41
+        },
+        "animacion": "gifs\\29.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\29.GIF",
+        "mini": "iconos\\29.PNG",
+        "grito": "sounds\\cries\\nidoranf.wav"
+    },
+    "nidorina": {
+        "descripcion": "Tiene un carácter afable. Emite ondas ultrasónicas para confundir al enemigo.",
+        "tipo": [
+            "poison"
+        ],
+        "peso": 20.0,
+        "altura": 0.8,
+        "habilidad": [
+            "rivalry",
+            "poison-point",
+            "hustle"
+        ],
+        "stats": {
+            "ps": 70,
+            "ataque": 62,
+            "defensa": 67,
+            "special-ataque": 55,
+            "defensa_especial": 55,
+            "velocidad": 56
+        },
+        "animacion": "gifs\\30.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\30.GIF",
+        "mini": "iconos\\30.PNG",
+        "grito": "sounds\\cries\\nidorina.wav"
+    },
+    "nidoqueen": {
+        "descripcion": "Usa su cuerpo duro y escamoso para sellar la entrada a su madriguera y protegerse de los depredadores.",
+        "tipo": [
+            "poison",
+            "ground"
+        ],
+        "peso": 60.0,
+        "altura": 1.3,
+        "habilidad": [
+            "rivalry",
+            "poison-point",
+            "sheer-force"
+        ],
+        "stats": {
+            "ps": 90,
+            "ataque": 92,
+            "defensa": 87,
+            "special-ataque": 75,
+            "defensa_especial": 85,
+            "velocidad": 76
+        },
+        "animacion": "gifs\\31.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\31.GIF",
+        "mini": "iconos\\31.PNG",
+        "grito": "sounds\\cries\\nidoqueen.wav"
+    },
+    "nidoran-m": {
+        "descripcion": "Saca las orejas por encima de la hierba para explorar el territorio. Le protege su cuerno venenoso.",
+        "tipo": [
+            "poison"
+        ],
+        "peso": 9.0,
+        "altura": 0.5,
+        "habilidad": [
+            "rivalry",
+            "poison-point",
+            "hustle"
+        ],
+        "stats": {
+            "ps": 46,
+            "ataque": 57,
+            "defensa": 40,
+            "special-ataque": 40,
+            "defensa_especial": 40,
+            "velocidad": 50
+        },
+        "animacion": "gifs\\32.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\32.GIF",
+        "mini": "iconos\\32.PNG",
+        "grito": "sounds\\cries\\nidoranm.wav"
+    },
+    "nidorino": {
+        "descripcion": "Levanta sus grandes orejas para vigilar. Si detecta algo, atacará de inmediato.",
+        "tipo": [
+            "poison"
+        ],
+        "peso": 19.5,
+        "altura": 0.9,
+        "habilidad": [
+            "rivalry",
+            "poison-point",
+            "hustle"
+        ],
+        "stats": {
+            "ps": 61,
+            "ataque": 72,
+            "defensa": 57,
+            "special-ataque": 55,
+            "defensa_especial": 55,
+            "velocidad": 65
+        },
+        "animacion": "gifs\\33.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\33.GIF",
+        "mini": "iconos\\33.PNG",
+        "grito": "sounds\\cries\\nidorino.wav"
+    },
+    "nidoking": {
+        "descripcion": "Es fácil reconocerlo por tener una dura piel y un gran cuerno lleno de peligrosísimo veneno.",
+        "tipo": [
+            "poison",
+            "ground"
+        ],
+        "peso": 62.0,
+        "altura": 1.4,
+        "habilidad": [
+            "rivalry",
+            "poison-point",
+            "sheer-force"
+        ],
+        "stats": {
+            "ps": 81,
+            "ataque": 102,
+            "defensa": 77,
+            "special-ataque": 85,
+            "defensa_especial": 75,
+            "velocidad": 85
+        },
+        "animacion": "gifs\\34.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\34.GIF",
+        "mini": "iconos\\34.PNG",
+        "grito": "sounds\\cries\\nidoking.wav"
+    },
+    "clefairy": {
+        "descripcion": "Se dice que la felicidad llegará a quien vea a un grupo de Clefairy bailando a la luz de la luna llena.",
+        "tipo": [
+            "fairy"
+        ],
+        "peso": 7.5,
+        "altura": 0.6,
+        "habilidad": [
+            "magic-guard",
+            "friend-guard",
+            "cute-charm"
+        ],
+        "stats": {
+            "ps": 70,
+            "ataque": 45,
+            "defensa": 48,
+            "special-ataque": 60,
+            "defensa_especial": 65,
+            "velocidad": 35
+        },
+        "animacion": "gifs\\35.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\35.GIF",
+        "mini": "iconos\\35.PNG",
+        "grito": "sounds\\cries\\clefairy.wav"
+    },
+    "clefable": {
+        "descripcion": "Su oído es tan agudo que puede oír una aguja caer a 1 km. Vive en montañas solitarias.",
+        "tipo": [
+            "fairy"
+        ],
+        "peso": 40.0,
+        "altura": 1.3,
+        "habilidad": [
+            "magic-guard",
+            "unaware",
+            "cute-charm"
+        ],
+        "stats": {
+            "ps": 95,
+            "ataque": 70,
+            "defensa": 73,
+            "special-ataque": 95,
+            "defensa_especial": 90,
+            "velocidad": 60
+        },
+        "animacion": "gifs\\36.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\36.GIF",
+        "mini": "iconos\\36.PNG",
+        "grito": "sounds\\cries\\clefable.wav"
+    },
+    "vulpix": {
+        "descripcion": "Cuando nace solo tiene una cola, pero a medida que crece, esta se va dividiendo desde la punta.",
+        "tipo": [
+            "fire"
+        ],
+        "peso": 9.9,
+        "altura": 0.6,
+        "habilidad": [
+            "drought",
+            "flash-fire"
+        ],
+        "stats": {
+            "ps": 38,
+            "ataque": 41,
+            "defensa": 40,
+            "special-ataque": 50,
+            "defensa_especial": 65,
+            "velocidad": 65
+        },
+        "animacion": "gifs\\37.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\37.GIF",
+        "mini": "iconos\\37.PNG",
+        "grito": "sounds\\cries\\vulpix.wav"
+    },
+    "ninetales": {
+        "descripcion": "Tiene nueve colas y un pelaje de color dorado. Dicen que este Pokémon llega a vivir 1000 años.",
+        "tipo": [
+            "fire"
+        ],
+        "peso": 19.9,
+        "altura": 1.1,
+        "habilidad": [
+            "drought",
+            "flash-fire"
+        ],
+        "stats": {
+            "ps": 73,
+            "ataque": 76,
+            "defensa": 75,
+            "special-ataque": 81,
+            "defensa_especial": 100,
+            "velocidad": 100
+        },
+        "animacion": "gifs\\38.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\38.GIF",
+        "mini": "iconos\\38.PNG",
+        "grito": "sounds\\cries\\ninetales.wav"
+    },
+    "jigglypuff": {
+        "descripcion": "Cautiva con la mirada a su enemigo y hace que se\nquede profundamente dormido mientras entona una dulce melodía.",
+        "tipo": [
+            "normal",
+            "fairy"
+        ],
+        "peso": 5.5,
+        "altura": 0.5,
+        "habilidad": [
+            "friend-guard",
+            "cute-charm",
+            "competitive"
+        ],
+        "stats": {
+            "ps": 115,
+            "ataque": 45,
+            "defensa": 20,
+            "special-ataque": 45,
+            "defensa_especial": 25,
+            "velocidad": 20
+        },
+        "animacion": "gifs\\39.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\39.GIF",
+        "mini": "iconos\\39.PNG",
+        "grito": "sounds\\cries\\jigglypuff.wav"
+    },
+    "wigglytuff": {
+        "descripcion": "Su piel es tan suave que si dos de ellos se acurrucan juntos, no querrán separarse nunca.",
+        "tipo": [
+            "normal",
+            "fairy"
+        ],
+        "peso": 12.0,
+        "altura": 1.0,
+        "habilidad": [
+            "frisk",
+            "cute-charm",
+            "competitive"
+        ],
+        "stats": {
+            "ps": 140,
+            "ataque": 70,
+            "defensa": 45,
+            "special-ataque": 85,
+            "defensa_especial": 50,
+            "velocidad": 45
+        },
+        "animacion": "gifs\\40.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\40.GIF",
+        "mini": "iconos\\40.PNG",
+        "grito": "sounds\\cries\\wigglytuff.wav"
+    },
+    "zubat": {
+        "descripcion": "Aunque carezca de ojos, puede detectar obstáculos con las ondas ultrasónicas que emite su boca.",
+        "tipo": [
+            "poison",
+            "flying"
+        ],
+        "peso": 7.5,
+        "altura": 0.8,
+        "habilidad": [
+            "infiltrator",
+            "inner-focus"
+        ],
+        "stats": {
+            "ps": 40,
+            "ataque": 45,
+            "defensa": 35,
+            "special-ataque": 30,
+            "defensa_especial": 40,
+            "velocidad": 55
+        },
+        "animacion": "gifs\\41.GIF",
+        "femenino": "gifs_female\\41.GIF",
+        "shiny": "gifs_shiny\\41.GIF",
+        "mini": "iconos\\41.PNG",
+        "grito": "sounds\\cries\\zubat.wav"
+    },
+    "golbat": {
+        "descripcion": "Cuando ataque, seguirá chupando energía de su víctima, aunque pese tanto que ya no pueda volar.",
+        "tipo": [
+            "poison",
+            "flying"
+        ],
+        "peso": 55.0,
+        "altura": 1.6,
+        "habilidad": [
+            "infiltrator",
+            "inner-focus"
+        ],
+        "stats": {
+            "ps": 75,
+            "ataque": 80,
+            "defensa": 70,
+            "special-ataque": 65,
+            "defensa_especial": 75,
+            "velocidad": 90
+        },
+        "animacion": "gifs\\42.GIF",
+        "femenino": "gifs_female\\42.GIF",
+        "shiny": "gifs_shiny\\42.GIF",
+        "mini": "iconos\\42.PNG",
+        "grito": "sounds\\cries\\golbat.wav"
+    },
+    "oddish": {
+        "descripcion": "Durante el día, se agazapa en el frío subsuelo huyendo del sol. La luz de la luna le hace crecer mucho.",
+        "tipo": [
+            "grass",
+            "poison"
+        ],
+        "peso": 5.4,
+        "altura": 0.5,
+        "habilidad": [
+            "chlorophyll",
+            "run-away"
+        ],
+        "stats": {
+            "ps": 45,
+            "ataque": 50,
+            "defensa": 55,
+            "special-ataque": 75,
+            "defensa_especial": 65,
+            "velocidad": 30
+        },
+        "animacion": "gifs\\43.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\43.GIF",
+        "mini": "iconos\\43.PNG",
+        "grito": "sounds\\cries\\oddish.wav"
+    },
+    "gloom": {
+        "descripcion": "¡Huele bastante mal! De todas formas, una de cada mil personas aprecian su fétido olor.",
+        "tipo": [
+            "grass",
+            "poison"
+        ],
+        "peso": 8.6,
+        "altura": 0.8,
+        "habilidad": [
+            "chlorophyll",
+            "stench"
+        ],
+        "stats": {
+            "ps": 60,
+            "ataque": 65,
+            "defensa": 70,
+            "special-ataque": 85,
+            "defensa_especial": 75,
+            "velocidad": 40
+        },
+        "animacion": "gifs\\44.GIF",
+        "femenino": "gifs_female\\44.GIF",
+        "shiny": "gifs_shiny\\44.GIF",
+        "mini": "iconos\\44.PNG",
+        "grito": "sounds\\cries\\gloom.wav"
+    },
+    "vileplume": {
+        "descripcion": "Cuanto mayores son sus pétalos, más tóxico es su\npolen. Le pesa la cabeza y le cuesta mantenerla erguida.",
+        "tipo": [
+            "grass",
+            "poison"
+        ],
+        "peso": 18.6,
+        "altura": 1.2,
+        "habilidad": [
+            "chlorophyll",
+            "effect-spore"
+        ],
+        "stats": {
+            "ps": 75,
+            "ataque": 80,
+            "defensa": 85,
+            "special-ataque": 110,
+            "defensa_especial": 90,
+            "velocidad": 50
+        },
+        "animacion": "gifs\\45.GIF",
+        "femenino": "gifs_female\\45.GIF",
+        "shiny": "gifs_shiny\\45.GIF",
+        "mini": "iconos\\45.PNG",
+        "grito": "sounds\\cries\\vileplume.wav"
+    },
+    "paras": {
+        "descripcion": "Lleva en el lomo dos setas parásitas llamadas\ntochukaso, que crecen con él.",
+        "tipo": [
+            "grass",
+            "bug"
+        ],
+        "peso": 5.4,
+        "altura": 0.3,
+        "habilidad": [
+            "damp",
+            "effect-spore",
+            "dry-skin"
+        ],
+        "stats": {
+            "ps": 35,
+            "ataque": 70,
+            "defensa": 55,
+            "special-ataque": 45,
+            "defensa_especial": 55,
+            "velocidad": 25
+        },
+        "animacion": "gifs\\46.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\46.GIF",
+        "mini": "iconos\\46.PNG",
+        "grito": "sounds\\cries\\paras.wav"
+    },
+    "parasect": {
+        "descripcion": "Parasect está dominado por una seta parásita mayor\nque él. Dispersa esporas venenosas.",
+        "tipo": [
+            "grass",
+            "bug"
+        ],
+        "peso": 29.5,
+        "altura": 1.0,
+        "habilidad": [
+            "damp",
+            "effect-spore",
+            "dry-skin"
+        ],
+        "stats": {
+            "ps": 60,
+            "ataque": 95,
+            "defensa": 80,
+            "special-ataque": 60,
+            "defensa_especial": 80,
+            "velocidad": 30
+        },
+        "animacion": "gifs\\47.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\47.GIF",
+        "mini": "iconos\\47.PNG",
+        "grito": "sounds\\cries\\parasect.wav"
+    },
+    "venonat": {
+        "descripcion": "Sus grandes ojos son en realidad grupos de ojos\ndiminutos. Por la noche se siente atraído por la luz.",
+        "tipo": [
+            "poison",
+            "bug"
+        ],
+        "peso": 30.0,
+        "altura": 1.0,
+        "habilidad": [
+            "run-away",
+            "compound-eyes",
+            "tinted-lens"
+        ],
+        "stats": {
+            "ps": 60,
+            "ataque": 55,
+            "defensa": 50,
+            "special-ataque": 40,
+            "defensa_especial": 55,
+            "velocidad": 45
+        },
+        "animacion": "gifs\\48.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\48.GIF",
+        "mini": "iconos\\48.PNG",
+        "grito": "sounds\\cries\\venonat.wav"
+    },
+    "venomoth": {
+        "descripcion": "Lanza unas escamas que paralizan a cualquiera.\nQuien las toque, no podrá ni ponerse de pie.",
+        "tipo": [
+            "poison",
+            "bug"
+        ],
+        "peso": 12.5,
+        "altura": 1.5,
+        "habilidad": [
+            "wonder-skin",
+            "shield-dust",
+            "tinted-lens"
+        ],
+        "stats": {
+            "ps": 70,
+            "ataque": 65,
+            "defensa": 60,
+            "special-ataque": 90,
+            "defensa_especial": 75,
+            "velocidad": 90
+        },
+        "animacion": "gifs\\49.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\49.GIF",
+        "mini": "iconos\\49.PNG",
+        "grito": "sounds\\cries\\venomoth.wav"
+    },
+    "diglett": {
+        "descripcion": "Vive un metro por debajo del suelo, donde se alimenta\nde raíces. También aparece en la superficie.",
+        "tipo": [
+            "ground"
+        ],
+        "peso": 0.8,
+        "altura": 0.2,
+        "habilidad": [
+            "sand-veil",
+            "sand-force",
+            "arena-trap"
+        ],
+        "stats": {
+            "ps": 10,
+            "ataque": 55,
+            "defensa": 25,
+            "special-ataque": 35,
+            "defensa_especial": 45,
+            "velocidad": 95
+        },
+        "animacion": "gifs\\50.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\50.GIF",
+        "mini": "iconos\\50.PNG",
+        "grito": "sounds\\cries\\diglett.wav"
+    },
+    "dugtrio": {
+        "descripcion": "En combate, cava la tierra, se esconde y sale de\nrepente para golpear a su rival. Nunca se sabe por\ndónde puede aparecer.",
+        "tipo": [
+            "ground"
+        ],
+        "peso": 33.3,
+        "altura": 0.7,
+        "habilidad": [
+            "sand-veil",
+            "sand-force",
+            "arena-trap"
+        ],
+        "stats": {
+            "ps": 35,
+            "ataque": 100,
+            "defensa": 50,
+            "special-ataque": 50,
+            "defensa_especial": 70,
+            "velocidad": 120
+        },
+        "animacion": "gifs\\51.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\51.GIF",
+        "mini": "iconos\\51.PNG",
+        "grito": "sounds\\cries\\dugtrio.wav"
+    },
+    "meowth": {
+        "descripcion": "Es de naturaleza nocturna. Le atraen los objetos brillantes.",
+        "tipo": [
+            "normal"
+        ],
+        "peso": 4.2,
+        "altura": 0.4,
+        "habilidad": [
+            "technician",
+            "pickup",
+            "unnerve"
+        ],
+        "stats": {
+            "ps": 40,
+            "ataque": 45,
+            "defensa": 35,
+            "special-ataque": 40,
+            "defensa_especial": 40,
+            "velocidad": 90
+        },
+        "animacion": "gifs\\52.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\52.GIF",
+        "mini": "iconos\\52.PNG",
+        "grito": "sounds\\cries\\meowth.wav"
+    },
+    "persian": {
+        "descripcion": "Aunque es muy admirado por el pelo, es difícil de\nentrenar como mascota, porque es un poco travieso.",
+        "tipo": [
+            "normal"
+        ],
+        "peso": 32.0,
+        "altura": 1.0,
+        "habilidad": [
+            "technician",
+            "limber",
+            "unnerve"
+        ],
+        "stats": {
+            "ps": 65,
+            "ataque": 70,
+            "defensa": 60,
+            "special-ataque": 65,
+            "defensa_especial": 65,
+            "velocidad": 115
+        },
+        "animacion": "gifs\\53.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\53.GIF",
+        "mini": "iconos\\53.PNG",
+        "grito": "sounds\\cries\\persian.wav"
+    },
+    "psyduck": {
+        "descripcion": "Padece continuamente dolores de cabeza. Cuando\nson muy fuertes, empieza a usar misteriosos poderes.",
+        "tipo": [
+            "water"
+        ],
+        "peso": 19.6,
+        "altura": 0.8,
+        "habilidad": [
+            "swift-swim",
+            "cloud-nine",
+            "damp"
+        ],
+        "stats": {
+            "ps": 50,
+            "ataque": 52,
+            "defensa": 48,
+            "special-ataque": 65,
+            "defensa_especial": 50,
+            "velocidad": 55
+        },
+        "animacion": "gifs\\54.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\54.GIF",
+        "mini": "iconos\\54.PNG",
+        "grito": "sounds\\cries\\psyduck.wav"
+    },
+    "golduck": {
+        "descripcion": "Aparece en ríos al anochecer. Puede usar poderes\ntelequinéticos si su frente brilla misteriosamente.",
+        "tipo": [
+            "water"
+        ],
+        "peso": 76.6,
+        "altura": 1.7,
+        "habilidad": [
+            "swift-swim",
+            "cloud-nine",
+            "damp"
+        ],
+        "stats": {
+            "ps": 80,
+            "ataque": 82,
+            "defensa": 78,
+            "special-ataque": 95,
+            "defensa_especial": 80,
+            "velocidad": 85
+        },
+        "animacion": "gifs\\55.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\55.GIF",
+        "mini": "iconos\\55.PNG",
+        "grito": "sounds\\cries\\golduck.wav"
+    },
+    "mankey": {
+        "descripcion": "Es peligroso acercarse si se enfada sin razón aparente,\nya que no distingue entre amigos y enemigos.",
+        "tipo": [
+            "fighting"
+        ],
+        "peso": 28.0,
+        "altura": 0.5,
+        "habilidad": [
+            "anger-point",
+            "vital-spirit",
+            "defiant"
+        ],
+        "stats": {
+            "ps": 40,
+            "ataque": 80,
+            "defensa": 35,
+            "special-ataque": 35,
+            "defensa_especial": 45,
+            "velocidad": 70
+        },
+        "animacion": "gifs\\56.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\56.GIF",
+        "mini": "iconos\\56.PNG",
+        "grito": "sounds\\cries\\mankey.wav"
+    },
+    "primeape": {
+        "descripcion": "Solo se calma cuando nadie está cerca. Llegar a ver\nese momento es realmente difícil.",
+        "tipo": [
+            "fighting"
+        ],
+        "peso": 32.0,
+        "altura": 1.0,
+        "habilidad": [
+            "anger-point",
+            "vital-spirit",
+            "defiant"
+        ],
+        "stats": {
+            "ps": 65,
+            "ataque": 105,
+            "defensa": 60,
+            "special-ataque": 60,
+            "defensa_especial": 70,
+            "velocidad": 95
+        },
+        "animacion": "gifs\\57.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\57.GIF",
+        "mini": "iconos\\57.PNG",
+        "grito": "sounds\\cries\\primeape.wav"
+    },
+    "growlithe": {
+        "descripcion": "Es muy agradable y leal. Para ahuyentar al enemigo,\nse pone a ladrar y a dar bocados.",
+        "tipo": [
+            "fire"
+        ],
+        "peso": 19.0,
+        "altura": 0.7,
+        "habilidad": [
+            "justified",
+            "intimidate",
+            "flash-fire"
+        ],
+        "stats": {
+            "ps": 55,
+            "ataque": 70,
+            "defensa": 45,
+            "special-ataque": 70,
+            "defensa_especial": 50,
+            "velocidad": 60
+        },
+        "animacion": "gifs\\58.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\58.GIF",
+        "mini": "iconos\\58.PNG",
+        "grito": "sounds\\cries\\growlithe.wav"
+    },
+    "arcanine": {
+        "descripcion": "Un Pokémon muy admirado desde la antigüedad por\nsu belleza. Corre ágilmente como si tuviera alas.",
+        "tipo": [
+            "fire"
+        ],
+        "peso": 155.0,
+        "altura": 1.9,
+        "habilidad": [
+            "justified",
+            "intimidate",
+            "flash-fire"
+        ],
+        "stats": {
+            "ps": 90,
+            "ataque": 110,
+            "defensa": 80,
+            "special-ataque": 100,
+            "defensa_especial": 80,
+            "velocidad": 95
+        },
+        "animacion": "gifs\\59.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\59.GIF",
+        "mini": "iconos\\59.PNG",
+        "grito": "sounds\\cries\\arcanine.wav"
+    },
+    "poliwag": {
+        "descripcion": "Tiene una piel extraordinaria, fina y húmeda, que deja\nentrever las vísceras que tiene dispuestas en espiral.",
+        "tipo": [
+            "water"
+        ],
+        "peso": 12.4,
+        "altura": 0.6,
+        "habilidad": [
+            "water-absorb",
+            "swift-swim",
+            "damp"
+        ],
+        "stats": {
+            "ps": 40,
+            "ataque": 50,
+            "defensa": 40,
+            "special-ataque": 40,
+            "defensa_especial": 40,
+            "velocidad": 90
+        },
+        "animacion": "gifs\\60.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\60.GIF",
+        "mini": "iconos\\60.PNG",
+        "grito": "sounds\\cries\\poliwag.wav"
+    },
+    "poliwhirl": {
+        "descripcion": "Capaz de vivir dentro o fuera del agua. Fuera del agua\nsuda para mantener baboso su cuerpo.",
+        "tipo": [
+            "water"
+        ],
+        "peso": 20.0,
+        "altura": 1.0,
+        "habilidad": [
+            "water-absorb",
+            "swift-swim",
+            "damp"
+        ],
+        "stats": {
+            "ps": 65,
+            "ataque": 65,
+            "defensa": 65,
+            "special-ataque": 50,
+            "defensa_especial": 50,
+            "velocidad": 90
+        },
+        "animacion": "gifs\\61.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\61.GIF",
+        "mini": "iconos\\61.PNG",
+        "grito": "sounds\\cries\\poliwhirl.wav"
+    },
+    "poliwrath": {
+        "descripcion": "Tiene músculos muy desarrollados. Es capaz de nadar\nen el océano sin descanso.",
+        "tipo": [
+            "fighting",
+            "water"
+        ],
+        "peso": 54.0,
+        "altura": 1.3,
+        "habilidad": [
+            "water-absorb",
+            "swift-swim",
+            "damp"
+        ],
+        "stats": {
+            "ps": 90,
+            "ataque": 95,
+            "defensa": 95,
+            "special-ataque": 70,
+            "defensa_especial": 90,
+            "velocidad": 70
+        },
+        "animacion": "gifs\\62.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\62.GIF",
+        "mini": "iconos\\62.PNG",
+        "grito": "sounds\\cries\\poliwrath.wav"
+    },
+    "abra": {
+        "descripcion": "Duerme 18 horas al día y mientras lo hace es capaz de\nusar una serie de poderes extrasensoriales.",
+        "tipo": [
+            "psychic"
+        ],
+        "peso": 19.5,
+        "altura": 0.9,
+        "habilidad": [
+            "synchronize",
+            "magic-guard",
+            "inner-focus"
+        ],
+        "stats": {
+            "ps": 25,
+            "ataque": 20,
+            "defensa": 15,
+            "special-ataque": 105,
+            "defensa_especial": 55,
+            "velocidad": 90
+        },
+        "animacion": "gifs\\63.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\63.GIF",
+        "mini": "iconos\\63.PNG",
+        "grito": "sounds\\cries\\abra.wav"
+    },
+    "kadabra": {
+        "descripcion": "Cuando utiliza su poder psíquico, emite poderosas\nondas alfa que pueden destruir dispositivos.",
+        "tipo": [
+            "psychic"
+        ],
+        "peso": 56.5,
+        "altura": 1.3,
+        "habilidad": [
+            "synchronize",
+            "magic-guard",
+            "inner-focus"
+        ],
+        "stats": {
+            "ps": 40,
+            "ataque": 35,
+            "defensa": 30,
+            "special-ataque": 120,
+            "defensa_especial": 70,
+            "velocidad": 105
+        },
+        "animacion": "gifs\\64.GIF",
+        "femenino": "gifs_female\\64.GIF",
+        "shiny": "gifs_shiny\\64.GIF",
+        "mini": "iconos\\64.PNG",
+        "grito": "sounds\\cries\\kadabra.wav"
+    },
+    "alakazam": {
+        "descripcion": "Sus neuronas se multiplican continuamente durante su\nvida. Por eso, siempre lo recuerda todo.",
+        "tipo": [
+            "psychic"
+        ],
+        "peso": 48.0,
+        "altura": 1.5,
+        "habilidad": [
+            "synchronize",
+            "magic-guard",
+            "inner-focus"
+        ],
+        "stats": {
+            "ps": 55,
+            "ataque": 50,
+            "defensa": 45,
+            "special-ataque": 135,
+            "defensa_especial": 95,
+            "velocidad": 120
+        },
+        "animacion": "gifs\\65.GIF",
+        "femenino": "gifs_female\\65.GIF",
+        "shiny": "gifs_shiny\\65.GIF",
+        "mini": "iconos\\65.PNG",
+        "grito": "sounds\\cries\\alakazam.wav"
+    },
+    "machop": {
+        "descripcion": "Levanta un Graveler para mantener sus músculos en\nforma. Domina todas las artes marciales.",
+        "tipo": [
+            "fighting"
+        ],
+        "peso": 19.5,
+        "altura": 0.8,
+        "habilidad": [
+            "steadfast",
+            "guts",
+            "no-guard"
+        ],
+        "stats": {
+            "ps": 70,
+            "ataque": 80,
+            "defensa": 50,
+            "special-ataque": 35,
+            "defensa_especial": 35,
+            "velocidad": 35
+        },
+        "animacion": "gifs\\66.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\66.GIF",
+        "mini": "iconos\\66.PNG",
+        "grito": "sounds\\cries\\machop.wav"
+    },
+    "machoke": {
+        "descripcion": "Su musculoso cuerpo es tan fuerte que usa un cinto\nantifuerza para controlar sus movimientos.",
+        "tipo": [
+            "fighting"
+        ],
+        "peso": 70.5,
+        "altura": 1.5,
+        "habilidad": [
+            "steadfast",
+            "guts",
+            "no-guard"
+        ],
+        "stats": {
+            "ps": 80,
+            "ataque": 100,
+            "defensa": 70,
+            "special-ataque": 50,
+            "defensa_especial": 60,
+            "velocidad": 45
+        },
+        "animacion": "gifs\\67.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\67.GIF",
+        "mini": "iconos\\67.PNG",
+        "grito": "sounds\\cries\\machoke.wav"
+    },
+    "machamp": {
+        "descripcion": "Tiene cuatro brazos tan bien desarrollados que puede\ndar una serie de 1000 puñetazos en cuestión de dos segundos.",
+        "tipo": [
+            "fighting"
+        ],
+        "peso": 130.0,
+        "altura": 1.6,
+        "habilidad": [
+            "steadfast",
+            "guts",
+            "no-guard"
+        ],
+        "stats": {
+            "ps": 90,
+            "ataque": 130,
+            "defensa": 80,
+            "special-ataque": 65,
+            "defensa_especial": 85,
+            "velocidad": 55
+        },
+        "animacion": "gifs\\68.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\68.GIF",
+        "mini": "iconos\\68.PNG",
+        "grito": "sounds\\cries\\machamp.wav"
+    },
+    "bellsprout": {
+        "descripcion": "Aunque su cuerpo es extremadamente delgado, es\nmuy rápido a la hora de capturar sus presas.",
+        "tipo": [
+            "grass",
+            "poison"
+        ],
+        "peso": 4.0,
+        "altura": 0.7,
+        "habilidad": [
+            "chlorophyll",
+            "gluttony"
+        ],
+        "stats": {
+            "ps": 50,
+            "ataque": 75,
+            "defensa": 35,
+            "special-ataque": 70,
+            "defensa_especial": 30,
+            "velocidad": 40
+        },
+        "animacion": "gifs\\69.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\69.GIF",
+        "mini": "iconos\\69.PNG",
+        "grito": "sounds\\cries\\bellsprout.wav"
+    },
+    "weepinbell": {
+        "descripcion": "Las hojas que tiene actúan como cuchillas en\ncombate. Otra de sus armas es el corrosivo fluido que expulsa.",
+        "tipo": [
+            "grass",
+            "poison"
+        ],
+        "peso": 6.4,
+        "altura": 1.0,
+        "habilidad": [
+            "chlorophyll",
+            "gluttony"
+        ],
+        "stats": {
+            "ps": 65,
+            "ataque": 90,
+            "defensa": 50,
+            "special-ataque": 85,
+            "defensa_especial": 45,
+            "velocidad": 55
+        },
+        "animacion": "gifs\\70.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\70.GIF",
+        "mini": "iconos\\70.PNG",
+        "grito": "sounds\\cries\\weepinbell.wav"
+    },
+    "victreebel": {
+        "descripcion": "Dicen que vive en grandes colonias en el interior de\nlas junglas, aunque nadie ha podido verificarlo.",
+        "tipo": [
+            "grass",
+            "poison"
+        ],
+        "peso": 15.5,
+        "altura": 1.7,
+        "habilidad": [
+            "chlorophyll",
+            "gluttony"
+        ],
+        "stats": {
+            "ps": 80,
+            "ataque": 105,
+            "defensa": 65,
+            "special-ataque": 100,
+            "defensa_especial": 70,
+            "velocidad": 70
+        },
+        "animacion": "gifs\\71.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\71.GIF",
+        "mini": "iconos\\71.PNG",
+        "grito": "sounds\\cries\\victreebel.wav"
+    },
+    "tentacool": {
+        "descripcion": "Su cuerpo se compone casi en exclusiva de agua.\nLanza extraños rayos con sus ojos cristalinos.",
+        "tipo": [
+            "poison",
+            "water"
+        ],
+        "peso": 45.5,
+        "altura": 0.9,
+        "habilidad": [
+            "clear-body",
+            "liquid-ooze",
+            "rain-dish"
+        ],
+        "stats": {
+            "ps": 40,
+            "ataque": 40,
+            "defensa": 35,
+            "special-ataque": 50,
+            "defensa_especial": 100,
+            "velocidad": 70
+        },
+        "animacion": "gifs\\72.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\72.GIF",
+        "mini": "iconos\\72.PNG",
+        "grito": "sounds\\cries\\tentacool.wav"
+    },
+    "tentacruel": {
+        "descripcion": "Cuando caza, extiende los cortos tentáculos que tiene\npara atrapar e inmovilizar a su presa.",
+        "tipo": [
+            "poison",
+            "water"
+        ],
+        "peso": 55.0,
+        "altura": 1.6,
+        "habilidad": [
+            "clear-body",
+            "liquid-ooze",
+            "rain-dish"
+        ],
+        "stats": {
+            "ps": 80,
+            "ataque": 70,
+            "defensa": 65,
+            "special-ataque": 80,
+            "defensa_especial": 120,
+            "velocidad": 100
+        },
+        "animacion": "gifs\\73.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\73.GIF",
+        "mini": "iconos\\73.PNG",
+        "grito": "sounds\\cries\\tentacruel.wav"
+    },
+    "geodude": {
+        "descripcion": "Aparecen en llanos y montañas. Como parecen rocas,\nla gente se tropieza con ellos o los pisa.",
+        "tipo": [
+            "rock",
+            "ground"
+        ],
+        "peso": 20.0,
+        "altura": 0.4,
+        "habilidad": [
+            "sturdy",
+            "sand-veil",
+            "rock-head"
+        ],
+        "stats": {
+            "ps": 40,
+            "ataque": 80,
+            "defensa": 100,
+            "special-ataque": 30,
+            "defensa_especial": 30,
+            "velocidad": 20
+        },
+        "animacion": "gifs\\74.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\74.GIF",
+        "mini": "iconos\\74.PNG",
+        "grito": "sounds\\cries\\geodude.wav"
+    },
+    "graveler": {
+        "descripcion": "De naturaleza descuidada y libre, no le importa\ndañarse cuando baja rodando montañas.",
+        "tipo": [
+            "rock",
+            "ground"
+        ],
+        "peso": 105.0,
+        "altura": 1.0,
+        "habilidad": [
+            "sturdy",
+            "sand-veil",
+            "rock-head"
+        ],
+        "stats": {
+            "ps": 55,
+            "ataque": 95,
+            "defensa": 115,
+            "special-ataque": 45,
+            "defensa_especial": 45,
+            "velocidad": 35
+        },
+        "animacion": "gifs\\75.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\75.GIF",
+        "mini": "iconos\\75.PNG",
+        "grito": "sounds\\cries\\graveler.wav"
+    },
+    "golem": {
+        "descripcion": "Se lanza montaña abajo y deja un surco desde la cima\nhasta el pie. Es mejor mantenerse alejado.",
+        "tipo": [
+            "rock",
+            "ground"
+        ],
+        "peso": 300.0,
+        "altura": 1.4,
+        "habilidad": [
+            "sturdy",
+            "sand-veil",
+            "rock-head"
+        ],
+        "stats": {
+            "ps": 80,
+            "ataque": 120,
+            "defensa": 130,
+            "special-ataque": 55,
+            "defensa_especial": 65,
+            "velocidad": 45
+        },
+        "animacion": "gifs\\76.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\76.GIF",
+        "mini": "iconos\\76.PNG",
+        "grito": "sounds\\cries\\golem.wav"
+    },
+    "ponyta": {
+        "descripcion": "Cuando nace, apenas puede tenerse en pie. Pero va\nfortaleciendo las patas en cuanto empieza a galopar.",
+        "tipo": [
+            "fire"
+        ],
+        "peso": 30.0,
+        "altura": 1.0,
+        "habilidad": [
+            "run-away",
+            "flame-body",
+            "flash-fire"
+        ],
+        "stats": {
+            "ps": 50,
+            "ataque": 85,
+            "defensa": 55,
+            "special-ataque": 65,
+            "defensa_especial": 65,
+            "velocidad": 90
+        },
+        "animacion": "gifs\\77.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\77.GIF",
+        "mini": "iconos\\77.PNG",
+        "grito": "sounds\\cries\\ponyta.wav"
+    },
+    "rapidash": {
+        "descripcion": "Galopa a casi 240 km por hora. Su crin ardienteparece una flecha cuando corre.",
+        "tipo": [
+            "fire"
+        ],
+        "peso": 95.0,
+        "altura": 1.7,
+        "habilidad": [
+            "run-away",
+            "flame-body",
+            "flash-fire"
+        ],
+        "stats": {
+            "ps": 65,
+            "ataque": 100,
+            "defensa": 70,
+            "special-ataque": 80,
+            "defensa_especial": 80,
+            "velocidad": 105
+        },
+        "animacion": "gifs\\78.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\78.GIF",
+        "mini": "iconos\\78.PNG",
+        "grito": "sounds\\cries\\rapidash.wav"
+    },
+    "slowpoke": {
+        "descripcion": "Descansa ocioso junto al agua. Si algo muerde su\ncola, no lo notará en todo el día.",
+        "tipo": [
+            "water",
+            "psychic"
+        ],
+        "peso": 36.0,
+        "altura": 1.2,
+        "habilidad": [
+            "own-tempo",
+            "regenerator",
+            "oblivious"
+        ],
+        "stats": {
+            "ps": 90,
+            "ataque": 65,
+            "defensa": 65,
+            "special-ataque": 40,
+            "defensa_especial": 40,
+            "velocidad": 15
+        },
+        "animacion": "gifs\\79.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\79.GIF",
+        "mini": "iconos\\79.PNG",
+        "grito": "sounds\\cries\\slowpoke.wav"
+    },
+    "slowbro": {
+        "descripcion": "Tiene una cola tan apetecible, que el Shellder que va\nenganchado a ella no se soltará por nada del mundo.",
+        "tipo": [
+            "water",
+            "psychic"
+        ],
+        "peso": 78.5,
+        "altura": 1.6,
+        "habilidad": [
+            "own-tempo",
+            "regenerator",
+            "oblivious"
+        ],
+        "stats": {
+            "ps": 95,
+            "ataque": 75,
+            "defensa": 110,
+            "special-ataque": 100,
+            "defensa_especial": 80,
+            "velocidad": 30
+        },
+        "animacion": "gifs\\80.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\80.GIF",
+        "mini": "iconos\\80.PNG",
+        "grito": "sounds\\cries\\slowbro.wav"
+    },
+    "magnemite": {
+        "descripcion": "Las unidades a los lados de su cuerpo generan\nenergía antigravitatoria para mantenerlo en el aire.",
+        "tipo": [
+            "electric",
+            "steel"
+        ],
+        "peso": 6.0,
+        "altura": 0.3,
+        "habilidad": [
+            "sturdy",
+            "magnet-pull",
+            "analytic"
+        ],
+        "stats": {
+            "ps": 25,
+            "ataque": 35,
+            "defensa": 70,
+            "special-ataque": 95,
+            "defensa_especial": 55,
+            "velocidad": 45
+        },
+        "animacion": "gifs\\81.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\81.GIF",
+        "mini": "iconos\\81.PNG",
+        "grito": "sounds\\cries\\magnemite.wav"
+    },
+    "magneton": {
+        "descripcion": "Lo constituye un grupo de Magnemite. Descarga\npotentes ondas magnéticas de alto voltaje.",
+        "tipo": [
+            "electric",
+            "steel"
+        ],
+        "peso": 60.0,
+        "altura": 1.0,
+        "habilidad": [
+            "sturdy",
+            "magnet-pull",
+            "analytic"
+        ],
+        "stats": {
+            "ps": 50,
+            "ataque": 60,
+            "defensa": 95,
+            "special-ataque": 120,
+            "defensa_especial": 70,
+            "velocidad": 70
+        },
+        "animacion": "gifs\\82.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\82.GIF",
+        "mini": "iconos\\82.PNG",
+        "grito": "sounds\\cries\\magneton.wav"
+    },
+    "farfetchd": {
+        "descripcion": "El puerro que lleva es su mejor arma. Suele usarlo\ncomo espada para cortar cosas.",
+        "tipo": [
+            "flying",
+            "normal"
+        ],
+        "peso": 15.0,
+        "altura": 0.8,
+        "habilidad": [
+            "keen-eye",
+            "defiant",
+            "inner-focus"
+        ],
+        "stats": {
+            "ps": 52,
+            "ataque": 90,
+            "defensa": 55,
+            "special-ataque": 58,
+            "defensa_especial": 62,
+            "velocidad": 60
+        },
+        "animacion": "gifs\\83.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\83.GIF",
+        "mini": "iconos\\83.PNG",
+        "grito": "sounds\\cries\\farfetchd.wav"
+    },
+    "doduo": {
+        "descripcion": "Este Pokémon de dos cabezas es el resultado de una\nmutación. Cuando corre, puede alcanzar casi 100 km por hora.",
+        "tipo": [
+            "flying",
+            "normal"
+        ],
+        "peso": 39.2,
+        "altura": 1.4,
+        "habilidad": [
+            "early-bird",
+            "run-away",
+            "tangled-feet"
+        ],
+        "stats": {
+            "ps": 35,
+            "ataque": 85,
+            "defensa": 45,
+            "special-ataque": 35,
+            "defensa_especial": 35,
+            "velocidad": 75
+        },
+        "animacion": "gifs\\84.GIF",
+        "femenino": "gifs_female\\84.GIF",
+        "shiny": "gifs_shiny\\84.GIF",
+        "mini": "iconos\\84.PNG",
+        "grito": "sounds\\cries\\doduo.wav"
+    },
+    "dodrio": {
+        "descripcion": "Más vale no perder de vista ninguna de las tres\ncabezas. De lo contrario, el número de picotazos será enorme.",
+        "tipo": [
+            "flying",
+            "normal"
+        ],
+        "peso": 85.2,
+        "altura": 1.8,
+        "habilidad": [
+            "early-bird",
+            "run-away",
+            "tangled-feet"
+        ],
+        "stats": {
+            "ps": 60,
+            "ataque": 110,
+            "defensa": 70,
+            "special-ataque": 60,
+            "defensa_especial": 60,
+            "velocidad": 110
+        },
+        "animacion": "gifs\\85.GIF",
+        "femenino": "gifs_female\\85.GIF",
+        "shiny": "gifs_shiny\\85.GIF",
+        "mini": "iconos\\85.PNG",
+        "grito": "sounds\\cries\\dodrio.wav"
+    },
+    "seel": {
+        "descripcion": "Este Pokémon vive en icebergs. Nada en el mar y usa \nel cuerno de su cabeza para romper el hielo.",
+        "tipo": [
+            "water"
+        ],
+        "peso": 90.0,
+        "altura": 1.1,
+        "habilidad": [
+            "ice-body",
+            "hydration",
+            "thick-fat"
+        ],
+        "stats": {
+            "ps": 65,
+            "ataque": 45,
+            "defensa": 55,
+            "special-ataque": 45,
+            "defensa_especial": 70,
+            "velocidad": 45
+        },
+        "animacion": "gifs\\86.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\86.GIF",
+        "mini": "iconos\\86.PNG",
+        "grito": "sounds\\cries\\seel.wav"
+    },
+    "dewgong": {
+        "descripcion": "Está recubierto de un luminoso pelaje blanco. Este\nPokémon aumenta su actividad cuando bajan lastemperaturas.",
+        "tipo": [
+            "water",
+            "ice"
+        ],
+        "peso": 120.0,
+        "altura": 1.7,
+        "habilidad": [
+            "ice-body",
+            "hydration",
+            "thick-fat"
+        ],
+        "stats": {
+            "ps": 90,
+            "ataque": 70,
+            "defensa": 80,
+            "special-ataque": 70,
+            "defensa_especial": 95,
+            "velocidad": 70
+        },
+        "animacion": "gifs\\87.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\87.GIF",
+        "mini": "iconos\\87.PNG",
+        "grito": "sounds\\cries\\dewgong.wav"
+    },
+    "grimer": {
+        "descripcion": "Nace de lodo alterado al filtrarse en el agua los        \nrayos X reflejados por la Luna. Se alimenta de \nsustancias desagradables.",
+        "tipo": [
+            "poison"
+        ],
+        "peso": 30.0,
+        "altura": 0.9,
+        "habilidad": [
+            "sticky-hold",
+            "poison-touch",
+            "stench"
+        ],
+        "stats": {
+            "ps": 80,
+            "ataque": 80,
+            "defensa": 50,
+            "special-ataque": 40,
+            "defensa_especial": 50,
+            "velocidad": 25
+        },
+        "animacion": "gifs\\88.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\88.GIF",
+        "mini": "iconos\\88.PNG",
+        "grito": "sounds\\cries\\grimer.wav"
+    },
+    "muk": {
+        "descripcion": "Les encanta reunirse en zonas apestosas donde se \nacumula el lodo, haciendo su olor más insoportable.",
+        "tipo": [
+            "poison"
+        ],
+        "peso": 30.0,
+        "altura": 1.2,
+        "habilidad": [
+            "sticky-hold",
+            "poison-touch",
+            "stench"
+        ],
+        "stats": {
+            "ps": 105,
+            "ataque": 105,
+            "defensa": 75,
+            "special-ataque": 65,
+            "defensa_especial": 100,
+            "velocidad": 50
+        },
+        "animacion": "gifs\\89.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\89.GIF",
+        "mini": "iconos\\89.PNG",
+        "grito": "sounds\\cries\\muk.wav"
+    },
+    "shellder": {
+        "descripcion": "La concha lo protege de cualquier tipo de ataque.\nSolo es vulnerable cuando se abre.",
+        "tipo": [
+            "water"
+        ],
+        "peso": 4.0,
+        "altura": 0.3,
+        "habilidad": [
+            "shell-armor",
+            "overcoat",
+            "skill-link"
+        ],
+        "stats": {
+            "ps": 30,
+            "ataque": 65,
+            "defensa": 100,
+            "special-ataque": 45,
+            "defensa_especial": 25,
+            "velocidad": 40
+        },
+        "animacion": "gifs\\90.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\90.GIF",
+        "mini": "iconos\\90.PNG",
+        "grito": "sounds\\cries\\shellder.wav"
+    },
+    "cloyster": {
+        "descripcion": "A los Cloyster que viven en las fuertes corrientes \nmarinas les crecen largas y afiladas púas en la concha.",
+        "tipo": [
+            "water",
+            "ice"
+        ],
+        "peso": 132.5,
+        "altura": 1.5,
+        "habilidad": [
+            "shell-armor",
+            "overcoat",
+            "skill-link"
+        ],
+        "stats": {
+            "ps": 50,
+            "ataque": 95,
+            "defensa": 180,
+            "special-ataque": 85,
+            "defensa_especial": 45,
+            "velocidad": 70
+        },
+        "animacion": "gifs\\91.GIF ",
+        "femenino": null,
+        "shiny": "gifs_shiny\\91.GIF",
+        "mini": "iconos\\91.PNG",
+        "grito": "sounds\\cries\\cloyster.wav"
+    },
+    "gastly": {
+        "descripcion": "Su etéreo cuerpo está hecho de gas. Puede envolver a un oponente de cualquier tamaño hasta ahogarlo.",
+        "tipo": [
+            "ghost",
+            "poison"
+        ],
+        "peso": 0.1,
+        "altura": 1.3,
+        "habilidad": [
+            "levitate"
+        ],
+        "stats": {
+            "ps": 30,
+            "ataque": 35,
+            "defensa": 30,
+            "special-ataque": 100,
+            "defensa_especial": 35,
+            "velocidad": 80
+        },
+        "animacion": "gifs\\92.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\92.GIF",
+        "mini": "iconos\\92.PNG",
+        "grito": "sounds\\cries\\gastly.wav"
+    },
+    "haunter": {
+        "descripcion": "Cuando tienes la sensación de que te están \nobservando, seguro que es porque Haunter está cerca.",
+        "tipo": [
+            "ghost",
+            "poison"
+        ],
+        "peso": 0.1,
+        "altura": 1.6,
+        "habilidad": [
+            "levitate"
+        ],
+        "stats": {
+            "ps": 45,
+            "ataque": 50,
+            "defensa": 45,
+            "special-ataque": 115,
+            "defensa_especial": 55,
+            "velocidad": 95
+        },
+        "animacion": "gifs\\93.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\93.GIF",
+        "mini": "iconos\\93.PNG",
+        "grito": "sounds\\cries\\haunter.wav"
+    },
+    "gengar": {
+        "descripcion": "Se esconde entre las sombras. Se dice que donde Gengar acecha, la temperatura baja 5 °C.",
+        "tipo": [
+            "ghost",
+            "poison"
+        ],
+        "peso": 40.5,
+        "altura": 1.5,
+        "habilidad": [
+            "cursed-body"
+        ],
+        "stats": {
+            "ps": 60,
+            "ataque": 65,
+            "defensa": 60,
+            "special-ataque": 130,
+            "defensa_especial": 75,
+            "velocidad": 110
+        },
+        "animacion": "gifs\\94.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\94.GIF",
+        "mini": "iconos\\94.PNG",
+        "grito": "sounds\\cries\\gengar.wav"
+    },
+    "onix": {
+        "descripcion": "Cava a gran velocidad en busca de comida. Los \ntúneles que deja son usados por los Diglett.",
+        "tipo": [
+            "rock",
+            "ground"
+        ],
+        "peso": 210.0,
+        "altura": 8.8,
+        "habilidad": [
+            "sturdy",
+            "weak-armor",
+            "rock-head"
+        ],
+        "stats": {
+            "ps": 35,
+            "ataque": 45,
+            "defensa": 160,
+            "special-ataque": 30,
+            "defensa_especial": 45,
+            "velocidad": 70
+        },
+        "animacion": "gifs\\95.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\95.GIF",
+        "mini": "iconos\\95.PNG",
+        "grito": "sounds\\cries\\onix.wav"
+    },
+    "drowzee": {
+        "descripcion": "Adormece a sus enemigos y se come sus sueños. \nA veces se pone enfermo si come pesadillas.",
+        "tipo": [
+            "psychic"
+        ],
+        "peso": 32.4,
+        "altura": 1.0,
+        "habilidad": [
+            "forewarn",
+            "insomnia",
+            "inner-focus"
+        ],
+        "stats": {
+            "ps": 60,
+            "ataque": 48,
+            "defensa": 45,
+            "special-ataque": 43,
+            "defensa_especial": 90,
+            "velocidad": 42
+        },
+        "animacion": "gifs\\96.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\96.GIF",
+        "mini": "iconos\\96.PNG",
+        "grito": "sounds\\cries\\drowzee.wav"
+    },
+    "hypno": {
+        "descripcion": "Lleva un péndulo en la mano. Una vez, hizo \ndesaparecer a un niño al que había hipnotizado.",
+        "tipo": [
+            "psychic"
+        ],
+        "peso": 75.6,
+        "altura": 1.6,
+        "habilidad": [
+            "forewarn",
+            "insomnia",
+            "inner-focus"
+        ],
+        "stats": {
+            "ps": 85,
+            "ataque": 73,
+            "defensa": 70,
+            "special-ataque": 73,
+            "defensa_especial": 115,
+            "velocidad": 67
+        },
+        "animacion": "gifs\\97.GIF",
+        "femenino": "gifs_female\\97.GIF",
+        "shiny": "gifs_shiny\\97.GIF",
+        "mini": "iconos\\97.PNG",
+        "grito": "sounds\\cries\\hypno.wav"
+    },
+    "krabby": {
+        "descripcion": "Ante el peligro, se camufla con las burbujas que \ndesprende su boca, para parecer más grande.",
+        "tipo": [
+            "water"
+        ],
+        "peso": 6.5,
+        "altura": 0.4,
+        "habilidad": [
+            "shell-armor",
+            "sheer-force",
+            "hyper-cutter"
+        ],
+        "stats": {
+            "ps": 30,
+            "ataque": 105,
+            "defensa": 90,
+            "special-ataque": 25,
+            "defensa_especial": 25,
+            "velocidad": 50
+        },
+        "animacion": "gifs\\98.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\98.GIF",
+        "mini": "iconos\\98.PNG",
+        "grito": "sounds\\cries\\krabby.wav"
+    },
+    "kingler": {
+        "descripcion": "La pinza tan grande que tiene posee una fuerza de \n10 000 caballos de potencia. Pero, por su gran \ntamaño, cuesta moverla.",
+        "tipo": [
+            "water"
+        ],
+        "peso": 60.0,
+        "altura": 1.3,
+        "habilidad": [
+            "shell-armor",
+            "sheer-force",
+            "hyper-cutter"
+        ],
+        "stats": {
+            "ps": 55,
+            "ataque": 130,
+            "defensa": 115,
+            "special-ataque": 50,
+            "defensa_especial": 50,
+            "velocidad": 75
+        },
+        "animacion": "gifs\\99.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\99.GIF",
+        "mini": "iconos\\99.PNG",
+        "grito": "sounds\\cries\\kingler.wav"
+    },
+    "voltorb": {
+        "descripcion": "Fue descubierto cuando se crearon las Poké Balls. \nSe dice que tiene algo que ver con ellas.",
+        "tipo": [
+            "electric"
+        ],
+        "peso": 10.4,
+        "altura": 0.5,
+        "habilidad": [
+            "aftermath",
+            "static",
+            "soundproof"
+        ],
+        "stats": {
+            "ps": 40,
+            "ataque": 30,
+            "defensa": 50,
+            "special-ataque": 55,
+            "defensa_especial": 55,
+            "velocidad": 100
+        },
+        "animacion": "gifs\\100.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\100.GIF",
+        "mini": "iconos\\100.PNG",
+        "grito": "sounds\\cries\\voltorb.wav"
+    },
+    "electrode": {
+        "descripcion": "Explotan a la mínima. Por eso se les tiene mucho \nmiedo. Estos Pokémon reciben el mote de Bomba Ball.",
+        "tipo": [
+            "electric"
+        ],
+        "peso": 66.6,
+        "altura": 1.2,
+        "habilidad": [
+            "aftermath",
+            "static",
+            "soundproof"
+        ],
+        "stats": {
+            "ps": 60,
+            "ataque": 50,
+            "defensa": 70,
+            "special-ataque": 80,
+            "defensa_especial": 80,
+            "velocidad": 150
+        },
+        "animacion": "gifs\\101.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\101.GIF",
+        "mini": "iconos\\101.PNG",
+        "grito": "sounds\\cries\\electrode.wav"
+    },
+    "exeggcute": {
+        "descripcion": "Estos seis huevos se comunican por telepatía. Si se \nseparan, se pueden reunir rápidamente.",
+        "tipo": [
+            "grass",
+            "psychic"
+        ],
+        "peso": 2.5,
+        "altura": 0.4,
+        "habilidad": [
+            "chlorophyll",
+            "harvest"
+        ],
+        "stats": {
+            "ps": 60,
+            "ataque": 40,
+            "defensa": 80,
+            "special-ataque": 60,
+            "defensa_especial": 45,
+            "velocidad": 40
+        },
+        "animacion": "gifs\\102.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\102.GIF",
+        "mini": "iconos\\102.PNG",
+        "grito": "sounds\\cries\\exeggcute.wav"
+    },
+    "exeggutor": {
+        "descripcion": "Sus tres cabezas piensan de forma independiente.\nSin embargo, son amigas y no suelen discutir nunca.",
+        "tipo": [
+            "grass",
+            "psychic"
+        ],
+        "peso": 120.0,
+        "altura": 2.0,
+        "habilidad": [
+            "chlorophyll",
+            "harvest"
+        ],
+        "stats": {
+            "ps": 95,
+            "ataque": 95,
+            "defensa": 85,
+            "special-ataque": 125,
+            "defensa_especial": 75,
+            "velocidad": 55
+        },
+        "animacion": "gifs\\103.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\103.GIF",
+        "mini": "iconos\\103.PNG",
+        "grito": "sounds\\cries\\exeggutor.wav"
+    },
+    "cubone": {
+        "descripcion": "Lleva puesto el cráneo de su madre. Cuando se siente \nsolo se pone a gritar muy fuerte.",
+        "tipo": [
+            "ground"
+        ],
+        "peso": 6.5,
+        "altura": 0.4,
+        "habilidad": [
+            "lightning-rod",
+            "rock-head",
+            "battle-armor"
+        ],
+        "stats": {
+            "ps": 50,
+            "ataque": 50,
+            "defensa": 95,
+            "special-ataque": 40,
+            "defensa_especial": 50,
+            "velocidad": 35
+        },
+        "animacion": "gifs\\104.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\104.GIF",
+        "mini": "iconos\\104.PNG",
+        "grito": "sounds\\cries\\cubone.wav"
+    },
+    "marowak": {
+        "descripcion": "Es pequeño y siempre ha sido muy débil. Cuando \nempezó a usar huesos, se volvió más violento.",
+        "tipo": [
+            "ground"
+        ],
+        "peso": 45.0,
+        "altura": 1.0,
+        "habilidad": [
+            "lightning-rod",
+            "rock-head",
+            "battle-armor"
+        ],
+        "stats": {
+            "ps": 60,
+            "ataque": 80,
+            "defensa": 110,
+            "special-ataque": 50,
+            "defensa_especial": 80,
+            "velocidad": 45
+        },
+        "animacion": "gifs\\105.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\105.GIF",
+        "mini": "iconos\\105.PNG",
+        "grito": "sounds\\cries\\marowak.wav"
+    },
+    "hitmonlee": {
+        "descripcion": "Encoge y estira las patas a su antojo. Cuando las \nestira, es capaz de propinar una buena patada al \nenemigo.",
+        "tipo": [
+            "fighting"
+        ],
+        "peso": 49.8,
+        "altura": 1.5,
+        "habilidad": [
+            "unburden",
+            "reckless",
+            "limber"
+        ],
+        "stats": {
+            "ps": 50,
+            "ataque": 120,
+            "defensa": 53,
+            "special-ataque": 35,
+            "defensa_especial": 110,
+            "velocidad": 87
+        },
+        "animacion": "gifs\\106.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\106.GIF",
+        "mini": "iconos\\106.PNG",
+        "grito": "sounds\\cries\\hitmonlee.wav"
+    },
+    "hitmonchan": {
+        "descripcion": "Los potentes golpes de sus brazos pueden pulverizar \nel hormigón. Descansa tras luchar tres minutos.",
+        "tipo": [
+            "fighting"
+        ],
+        "peso": 50.2,
+        "altura": 1.4,
+        "habilidad": [
+            "keen-eye",
+            "iron-fist",
+            "inner-focus"
+        ],
+        "stats": {
+            "ps": 50,
+            "ataque": 105,
+            "defensa": 79,
+            "special-ataque": 35,
+            "defensa_especial": 110,
+            "velocidad": 76
+        },
+        "animacion": "gifs\\107.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\107.GIF",
+        "mini": "iconos\\107.PNG",
+        "grito": "sounds\\cries\\hitmonchan.wav"
+    },
+    "lickitung": {
+        "descripcion": "Su larga lengua, recubierta de saliva pegajosa, se \npega a todo, por lo que es muy útil.",
+        "tipo": [
+            "normal"
+        ],
+        "peso": 65.5,
+        "altura": 1.2,
+        "habilidad": [
+            "own-tempo",
+            "cloud-nine",
+            "oblivious"
+        ],
+        "stats": {
+            "ps": 90,
+            "ataque": 55,
+            "defensa": 75,
+            "special-ataque": 60,
+            "defensa_especial": 75,
+            "velocidad": 30
+        },
+        "animacion": "gifs\\108.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\108.GIF",
+        "mini": "iconos\\108.PNG",
+        "grito": "sounds\\cries\\lickitung.wav"
+    },
+    "koffing": {
+        "descripcion": "Tiene forma de globo y es muy ligero. Está compuesto \npor gases tóxicos y apesta.",
+        "tipo": [
+            "poison"
+        ],
+        "peso": 1.0,
+        "altura": 0.6,
+        "habilidad": [
+            "neutralizing-gas",
+            "levitate",
+            "stench"
+        ],
+        "stats": {
+            "ps": 40,
+            "ataque": 65,
+            "defensa": 95,
+            "special-ataque": 60,
+            "defensa_especial": 45,
+            "velocidad": 35
+        },
+        "animacion": "gifs\\109.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\109.GIF",
+        "mini": "iconos\\109.PNG",
+        "grito": "sounds\\cries\\koffing.wav"
+    },
+    "weezing": {
+        "descripcion": "Si uno de los gemelos Koffing se infla, el otro se \ndesinfla. Mezclan constantemente sus venenosos \ngases.",
+        "tipo": [
+            "poison"
+        ],
+        "peso": 9.5,
+        "altura": 1.2,
+        "habilidad": [
+            "neutralizing-gas",
+            "levitate",
+            "stench"
+        ],
+        "stats": {
+            "ps": 65,
+            "ataque": 90,
+            "defensa": 120,
+            "special-ataque": 85,
+            "defensa_especial": 70,
+            "velocidad": 60
+        },
+        "animacion": "gifs\\110.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\110.GIF",
+        "mini": "iconos\\110.PNG",
+        "grito": "sounds\\cries\\weezing.wav"
+    },
+    "rhyhorn": {
+        "descripcion": "Es muy fuerte, pero no especialmente listo. Es capaz \nde derribar rascacielos usando Placaje varias veces.",
+        "tipo": [
+            "rock",
+            "ground"
+        ],
+        "peso": 115.0,
+        "altura": 1.0,
+        "habilidad": [
+            "lightning-rod",
+            "rock-head",
+            "reckless"
+        ],
+        "stats": {
+            "ps": 80,
+            "ataque": 85,
+            "defensa": 95,
+            "special-ataque": 30,
+            "defensa_especial": 30,
+            "velocidad": 25
+        },
+        "animacion": "gifs\\111.GIF",
+        "femenino": "gifs_female\\111.GIF",
+        "shiny": "gifs_shiny\\111.GIF",
+        "mini": "iconos\\111.PNG",
+        "grito": "sounds\\cries\\rhyhorn.wav"
+    },
+    "rhydon": {
+        "descripcion": "La piel le sirve de escudo protector. Puede vivir en \n lava líquida a 2000 °C de temperatura.",
+        "tipo": [
+            "rock",
+            "ground"
+        ],
+        "peso": 120.0,
+        "altura": 1.9,
+        "habilidad": [
+            "lightning-rod",
+            "rock-head",
+            "reckless"
+        ],
+        "stats": {
+            "ps": 105,
+            "ataque": 130,
+            "defensa": 120,
+            "special-ataque": 45,
+            "defensa_especial": 45,
+            "velocidad": 40
+        },
+        "animacion": "gifs\\112.GIF",
+        "femenino": "gifs_female\\112.GIF",
+        "shiny": "gifs_shiny\\112.GIF",
+        "mini": "iconos\\112.PNG",
+        "grito": "sounds\\cries\\rhydon.wav"
+    },
+    "chansey": {
+        "descripcion": "Se dice que reparte felicidad. Se caracteriza por su \ncompasión y reparte sus huevos entre la gente herida.",
+        "tipo": [
+            "normal"
+        ],
+        "peso": 34.6,
+        "altura": 1.1,
+        "habilidad": [
+            "healer",
+            "natural-cure",
+            "serene-grace"
+        ],
+        "stats": {
+            "ps": 250,
+            "ataque": 5,
+            "defensa": 5,
+            "special-ataque": 35,
+            "defensa_especial": 105,
+            "velocidad": 50
+        },
+        "animacion": "gifs\\113.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\113.GIF",
+        "mini": "iconos\\113.PNG",
+        "grito": "sounds\\cries\\chansey.wav"
+    },
+    "tangela": {
+        "descripcion": "Se camufla con la multitud de lianas que envuelven su \ncuerpo y que no dejan de crecer a lo largo de toda su \nvida.",
+        "tipo": [
+            "grass"
+        ],
+        "peso": 35.0,
+        "altura": 1.0,
+        "habilidad": [
+            "chlorophyll",
+            "leaf-guard",
+            "regenerator"
+        ],
+        "stats": {
+            "ps": 65,
+            "ataque": 55,
+            "defensa": 115,
+            "special-ataque": 100,
+            "defensa_especial": 40,
+            "velocidad": 60
+        },
+        "animacion": "gifs\\114.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\114.GIF",
+        "mini": "iconos\\114.PNG",
+        "grito": "sounds\\cries\\tangela.wav"
+    },
+    "kangaskhan": {
+        "descripcion": "Lleva a su cría en la bolsa de su panza. Solo deja que \nsu cría salga a jugar cuando no siente peligro.",
+        "tipo": [
+            "normal"
+        ],
+        "peso": 80.0,
+        "altura": 2.2,
+        "habilidad": [
+            "early-bird",
+            "scrappy",
+            "inner-focus"
+        ],
+        "stats": {
+            "ps": 105,
+            "ataque": 95,
+            "defensa": 80,
+            "special-ataque": 40,
+            "defensa_especial": 80,
+            "velocidad": 90
+        },
+        "animacion": "gifs\\115.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\115.GIF",
+        "mini": "iconos\\115.PNG",
+        "grito": "sounds\\cries\\kangaskhan.wav"
+    },
+    "horsea": {
+        "descripcion": "Es famoso por derribar a bichos voladores lanzando \ntinta desde la superficie del agua.",
+        "tipo": [
+            "water"
+        ],
+        "peso": 8.0,
+        "altura": 0.4,
+        "habilidad": [
+            "swift-swim",
+            "sniper",
+            "damp"
+        ],
+        "stats": {
+            "ps": 30,
+            "ataque": 40,
+            "defensa": 70,
+            "special-ataque": 70,
+            "defensa_especial": 25,
+            "velocidad": 60
+        },
+        "animacion": "gifs\\116.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\116.GIF",
+        "mini": "iconos\\116.PNG",
+        "grito": "sounds\\cries\\horsea.wav"
+    },
+    "seadra": {
+        "descripcion": "Las afiladas púas que le recubren el cuerpo se le \nerizan y pueden causar el debilitamiento con solo \ntocarlo.",
+        "tipo": [
+            "water"
+        ],
+        "peso": 25.0,
+        "altura": 1.2,
+        "habilidad": [
+            "sniper",
+            "poison-point",
+            "damp"
+        ],
+        "stats": {
+            "ps": 55,
+            "ataque": 65,
+            "defensa": 95,
+            "special-ataque": 95,
+            "defensa_especial": 45,
+            "velocidad": 85
+        },
+        "animacion": "gifs\\117.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\117.GIF",
+        "mini": "iconos\\117.PNG",
+        "grito": "sounds\\cries\\seadra.wav"
+    },
+    "goldeen": {
+        "descripcion": "Nada a una velocidad de cinco nudos. Si siente \npeligro, golpea con su afilado cuerno.",
+        "tipo": [
+            "water"
+        ],
+        "peso": 15.0,
+        "altura": 0.6,
+        "habilidad": [
+            "water-veil",
+            "swift-swim",
+            "lightning-rod"
+        ],
+        "stats": {
+            "ps": 45,
+            "ataque": 67,
+            "defensa": 60,
+            "special-ataque": 35,
+            "defensa_especial": 50,
+            "velocidad": 63
+        },
+        "animacion": "gifs\\118.GIF",
+        "femenino": "gifs_female\\118.GIF",
+        "shiny": "gifs_shiny\\118.GIF",
+        "mini": "iconos\\118.PNG",
+        "grito": "sounds\\cries\\goldeen.wav"
+    },
+    "seaking": {
+        "descripcion": "En otoño, cuando se reproducen, se les puede ver \nnadando con energía por ríos y arroyos.",
+        "tipo": [
+            "water"
+        ],
+        "peso": 39.0,
+        "altura": 1.3,
+        "habilidad": [
+            "water-veil",
+            "swift-swim",
+            "lightning-rod"
+        ],
+        "stats": {
+            "ps": 80,
+            "ataque": 92,
+            "defensa": 65,
+            "special-ataque": 65,
+            "defensa_especial": 80,
+            "velocidad": 68
+        },
+        "animacion": "gifs\\119.GIF",
+        "femenino": "gifs_female\\119.GIF",
+        "shiny": "gifs_shiny\\119.GIF",
+        "mini": "iconos\\119.PNG",
+        "grito": "sounds\\cries\\seaking.wav"
+    },
+    "staryu": {
+        "descripcion": "Aunque sus brazos se rompan podrán regenerarse, \nsiempre y cuando su núcleo siga intacto.",
+        "tipo": [
+            "water"
+        ],
+        "peso": 34.5,
+        "altura": 0.8,
+        "habilidad": [
+            "illuminate",
+            "natural-cure",
+            "analytic"
+        ],
+        "stats": {
+            "ps": 30,
+            "ataque": 45,
+            "defensa": 55,
+            "special-ataque": 70,
+            "defensa_especial": 55,
+            "velocidad": 85
+        },
+        "animacion": "gifs\\120.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\120.GIF",
+        "mini": "iconos\\120.PNG",
+        "grito": "sounds\\cries\\staryu.wav"
+    },
+    "starmie": {
+        "descripcion": "Su núcleo central brilla con los colores del arcoíris. \nPara algunos tiene el valor de una gema.",
+        "tipo": [
+            "water",
+            "psychic"
+        ],
+        "peso": 80.0,
+        "altura": 1.1,
+        "habilidad": [
+            "illuminate",
+            "natural-cure",
+            "analytic"
+        ],
+        "stats": {
+            "ps": 60,
+            "ataque": 75,
+            "defensa": 85,
+            "special-ataque": 100,
+            "defensa_especial": 85,
+            "velocidad": 115
+        },
+        "animacion": "gifs\\121.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\121.GIF",
+        "mini": "iconos\\121.PNG",
+        "grito": "sounds\\cries\\starmie.wav"
+    },
+    "mr-mime": {
+        "descripcion": "Para repeler ataques, solidifica el aire y crea muros \ninvisibles con emanaciones de sus dedos.",
+        "tipo": [
+            "fairy",
+            "psychic"
+        ],
+        "peso": 54.5,
+        "altura": 1.3,
+        "habilidad": [
+            "technician",
+            "filter",
+            "soundproof"
+        ],
+        "stats": {
+            "ps": 40,
+            "ataque": 45,
+            "defensa": 65,
+            "special-ataque": 100,
+            "defensa_especial": 120,
+            "velocidad": 90
+        },
+        "animacion": "gifs\\122.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\122.GIF",
+        "mini": "iconos\\122.PNG",
+        "grito": "sounds\\cries\\mrmime.wav"
+    },
+    "scyther": {
+        "descripcion": "Destroza a su presa con las guadañas que tiene. \nNo es común que use las alas para volar.",
+        "tipo": [
+            "bug",
+            "flying"
+        ],
+        "peso": 56.0,
+        "altura": 1.5,
+        "habilidad": [
+            "swarm",
+            "steadfast",
+            "technician"
+        ],
+        "stats": {
+            "ps": 70,
+            "ataque": 110,
+            "defensa": 80,
+            "special-ataque": 55,
+            "defensa_especial": 80,
+            "velocidad": 105
+        },
+        "animacion": "gifs\\123.GIF",
+        "femenino": "gifs_female\\123.GIF",
+        "shiny": "gifs_shiny\\123.GIF",
+        "mini": "iconos\\123.PNG",
+        "grito": "sounds\\cries\\scyther.wav"
+    },
+    "jynx": {
+        "descripcion": "Camina moviendo las caderas de forma llamativa. \nPuede hacer que la gente baile a su ritmo.",
+        "tipo": [
+            "ice",
+            "psychic"
+        ],
+        "peso": 40.6,
+        "altura": 1.4,
+        "habilidad": [
+            "forewarn",
+            "oblivious",
+            "dry-skin"
+        ],
+        "stats": {
+            "ps": 65,
+            "ataque": 50,
+            "defensa": 35,
+            "special-ataque": 115,
+            "defensa_especial": 95,
+            "velocidad": 95
+        },
+        "animacion": "gifs\\124.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\124.GIF",
+        "mini": "iconos\\124.PNG",
+        "grito": "sounds\\cries\\jynx.wav"
+    },
+    "electabuzz": {
+        "descripcion": "Por la superficie de su piel corre la electricidad. En la \noscuridad, su cuerpo se torna blanquecino.",
+        "tipo": [
+            "electric"
+        ],
+        "peso": 30.0,
+        "altura": 1.1,
+        "habilidad": [
+            "vital-spirit",
+            "static"
+        ],
+        "stats": {
+            "ps": 65,
+            "ataque": 83,
+            "defensa": 57,
+            "special-ataque": 95,
+            "defensa_especial": 85,
+            "velocidad": 105
+        },
+        "animacion": "gifs\\125.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\125.GIF",
+        "mini": "iconos\\125.PNG",
+        "grito": "sounds\\cries\\electabuzz.wav"
+    },
+    "magmar": {
+        "descripcion": "A este Pokémon se lo encontraron cerca de un volcán. \nEsta criatura ígnea tiene una temperatura corporal de \nunos 1200 °C.",
+        "tipo": [
+            "fire"
+        ],
+        "peso": 44.5,
+        "altura": 1.3,
+        "habilidad": [
+            "flame-body",
+            "vital-spirit"
+        ],
+        "stats": {
+            "ps": 65,
+            "ataque": 95,
+            "defensa": 57,
+            "special-ataque": 100,
+            "defensa_especial": 85,
+            "velocidad": 93
+        },
+        "animacion": "gifs\\126.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\126.GIF",
+        "mini": "iconos\\126.PNG",
+        "grito": "sounds\\cries\\magmar.wav"
+    },
+    "pinsir": {
+        "descripcion": "Atrapa presas con sus pinzas hasta que las parte en \ndos. Lanza lejos lo que no puede quebrar.",
+        "tipo": [
+            "bug"
+        ],
+        "peso": 55.0,
+        "altura": 1.5,
+        "habilidad": [
+            "mold-breaker",
+            "moxie",
+            "hyper-cutter"
+        ],
+        "stats": {
+            "ps": 65,
+            "ataque": 125,
+            "defensa": 100,
+            "special-ataque": 55,
+            "defensa_especial": 70,
+            "velocidad": 85
+        },
+        "animacion": "gifs\\127.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\127.GIF",
+        "mini": "iconos\\127.PNG",
+        "grito": "sounds\\cries\\pinsir.wav"
+    },
+    "tauros": {
+        "descripcion": "Después de animarse a luchar fustigándose con sus \ntres colas, carga a toda velocidad.",
+        "tipo": [
+            "normal"
+        ],
+        "peso": 88.4,
+        "altura": 1.4,
+        "habilidad": [
+            "anger-point",
+            "sheer-force",
+            "intimidate"
+        ],
+        "stats": {
+            "ps": 75,
+            "ataque": 100,
+            "defensa": 95,
+            "special-ataque": 40,
+            "defensa_especial": 70,
+            "velocidad": 110
+        },
+        "animacion": "gifs\\128.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\128.GIF",
+        "mini": "iconos\\128.PNG",
+        "grito": "sounds\\cries\\tauros.wav"
+    },
+    "magikarp": {
+        "descripcion": "No es precisamente rápido ni fuerte. Es el Pokémon \nmás debilucho y simplón de todos los que hay.",
+        "tipo": [
+            "water"
+        ],
+        "peso": 10.0,
+        "altura": 0.9,
+        "habilidad": [
+            "rattled",
+            "swift-swim"
+        ],
+        "stats": {
+            "ps": 20,
+            "ataque": 10,
+            "defensa": 55,
+            "special-ataque": 15,
+            "defensa_especial": 20,
+            "velocidad": 80
+        },
+        "animacion": "gifs\\129.GIF",
+        "femenino": "gifs_female\\129.GIF",
+        "shiny": "gifs_shiny\\129.GIF",
+        "mini": "iconos\\129.PNG",
+        "grito": "sounds\\cries\\magikarp.wav"
+    },
+    "gyarados": {
+        "descripcion": "En la literatura antigua se dice que un Gyarados \nrebosante de violencia arrasó un poblado.",
+        "tipo": [
+            "water",
+            "flying"
+        ],
+        "peso": 235.0,
+        "altura": 6.5,
+        "habilidad": [
+            "intimidate",
+            "moxie"
+        ],
+        "stats": {
+            "ps": 95,
+            "ataque": 125,
+            "defensa": 79,
+            "special-ataque": 60,
+            "defensa_especial": 100,
+            "velocidad": 81
+        },
+        "animacion": "gifs\\130.GIF",
+        "femenino": "gifs_female\\130.GIF",
+        "shiny": "gifs_shiny\\130.GIF",
+        "mini": "iconos\\130.PNG",
+        "grito": "sounds\\cries\\gyarados.wav"
+    },
+    "lapras": {
+        "descripcion": "Son buenos de corazón. Muchos fueron capturados \npor ser tan pacíficos. Ahora hay muchos menos.",
+        "tipo": [
+            "water",
+            "ice"
+        ],
+        "peso": 220.0,
+        "altura": 2.5,
+        "habilidad": [
+            "water-absorb",
+            "shell-armor",
+            "hydration"
+        ],
+        "stats": {
+            "ps": 130,
+            "ataque": 85,
+            "defensa": 80,
+            "special-ataque": 85,
+            "defensa_especial": 95,
+            "velocidad": 60
+        },
+        "animacion": "gifs\\131.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\131.GIF",
+        "mini": "iconos\\131.PNG",
+        "grito": "sounds\\cries\\lapras.wav"
+    },
+    "ditto": {
+        "descripcion": "Puede alterar por completo su estructura celular para \nemular cualquier objeto que vea.",
+        "tipo": [
+            "normal"
+        ],
+        "peso": 4.0,
+        "altura": 0.3,
+        "habilidad": [
+            "limber",
+            "imposter"
+        ],
+        "stats": {
+            "ps": 48,
+            "ataque": 48,
+            "defensa": 48,
+            "special-ataque": 48,
+            "defensa_especial": 48,
+            "velocidad": 48
+        },
+        "animacion": "gifs\\132.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\132.GIF",
+        "mini": "iconos\\132.PNG",
+        "grito": "sounds\\cries\\ditto.wav"
+    },
+    "eevee": {
+        "descripcion": "Un extraño Pokémon que se adapta a los entornos \nás hostiles gracias a sus diferentes evoluciones.",
+        "tipo": [
+            "normal"
+        ],
+        "peso": 6.5,
+        "altura": 0.3,
+        "habilidad": [
+            "run-away",
+            "adaptability",
+            "anticipation"
+        ],
+        "stats": {
+            "ps": 55,
+            "ataque": 55,
+            "defensa": 50,
+            "special-ataque": 45,
+            "defensa_especial": 65,
+            "velocidad": 55
+        },
+        "animacion": "gifs\\133.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\133.GIF",
+        "mini": "iconos\\133.PNG",
+        "grito": "sounds\\cries\\eevee.wav"
+    },
+    "vaporeon": {
+        "descripcion": "Prefiere las bellas costas. Con células parecidas al \nagua, podría fundirse en la misma.",
+        "tipo": [
+            "water"
+        ],
+        "peso": 29.0,
+        "altura": 1.0,
+        "habilidad": [
+            "water-absorb",
+            "hydration"
+        ],
+        "stats": {
+            "ps": 130,
+            "ataque": 65,
+            "defensa": 60,
+            "special-ataque": 110,
+            "defensa_especial": 95,
+            "velocidad": 65
+        },
+        "animacion": "gifs\\134.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\134.GIF",
+        "mini": "iconos\\134.PNG",
+        "grito": "sounds\\cries\\vaporeon.wav"
+    },
+    "jolteon": {
+        "descripcion": "Todos los pelos de su cuerpo se ponen de punta si \nempieza a cargarse de electricidad.",
+        "tipo": [
+            "electric"
+        ],
+        "peso": 24.5,
+        "altura": 0.8,
+        "habilidad": [
+            "volt-absorb",
+            "quick-feet"
+        ],
+        "stats": {
+            "ps": 65,
+            "ataque": 65,
+            "defensa": 60,
+            "special-ataque": 110,
+            "defensa_especial": 95,
+            "velocidad": 130
+        },
+        "animacion": "gifs\\135.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\135.GIF",
+        "mini": "iconos\\135.PNG",
+        "grito": "sounds\\cries\\jolteon.wav"
+    },
+    "flareon": {
+        "descripcion": "Almacena llamas en su cuerpo, que alcanza una \ntemperatura de 900 °C antes de un combate.",
+        "tipo": [
+            "fire"
+        ],
+        "peso": 25.0,
+        "altura": 0.9,
+        "habilidad": [
+            "guts",
+            "flash-fire"
+        ],
+        "stats": {
+            "ps": 65,
+            "ataque": 130,
+            "defensa": 60,
+            "special-ataque": 95,
+            "defensa_especial": 110,
+            "velocidad": 65
+        },
+        "animacion": "gifs\\136.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\136.GIF",
+        "mini": "iconos\\136.PNG",
+        "grito": "sounds\\cries\\flareon.wav"
+    },
+    "porygon": {
+        "descripcion": "Pokémon creado por el hombre tras muchas \ninvestigaciones. Sus habilidades son básicas.",
+        "tipo": [
+            "normal"
+        ],
+        "peso": 36.5,
+        "altura": 0.8,
+        "habilidad": [
+            "analytic",
+            "trace",
+            "download"
+        ],
+        "stats": {
+            "ps": 65,
+            "ataque": 60,
+            "defensa": 70,
+            "special-ataque": 85,
+            "defensa_especial": 75,
+            "velocidad": 40
+        },
+        "animacion": "gifs\\137.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\137.GIF",
+        "mini": "iconos\\137.PNG",
+        "grito": "sounds\\cries\\porygon.wav"
+    },
+    "omanyte": {
+        "descripcion": "Pokémon prehistórico que vivió en el océano \nprimordial. Para nadar se valía de sus 10 tentáculos.",
+        "tipo": [
+            "rock",
+            "water"
+        ],
+        "peso": 7.5,
+        "altura": 0.4,
+        "habilidad": [
+            "swift-swim",
+            "shell-armor",
+            "weak-armor"
+        ],
+        "stats": {
+            "ps": 35,
+            "ataque": 40,
+            "defensa": 100,
+            "special-ataque": 90,
+            "defensa_especial": 55,
+            "velocidad": 35
+        },
+        "animacion": "gifs\\138.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\138.GIF",
+        "mini": "iconos\\138.PNG",
+        "grito": "sounds\\cries\\omanyte.wav"
+    },
+    "omastar": {
+        "descripcion": "Tiene los tentáculos tan desarrollados que le sirven de \nmanos y pies. Con ellos atrapa a su presa y le da un \nbocado.",
+        "tipo": [
+            "rock",
+            "water"
+        ],
+        "peso": 35.0,
+        "altura": 1.0,
+        "habilidad": [
+            "swift-swim",
+            "shell-armor",
+            "weak-armor"
+        ],
+        "stats": {
+            "ps": 70,
+            "ataque": 60,
+            "defensa": 125,
+            "special-ataque": 115,
+            "defensa_especial": 70,
+            "velocidad": 55
+        },
+        "animacion": "gifs\\139.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\139.GIF",
+        "mini": "iconos\\139.PNG",
+        "grito": "sounds\\cries\\omastar.wav"
+    },
+    "kabuto": {
+        "descripcion": "Se cree que habitó las playas hace 300 millones de \naños. Se protege con una dura concha.",
+        "tipo": [
+            "rock",
+            "water"
+        ],
+        "peso": 11.5,
+        "altura": 0.5,
+        "habilidad": [
+            "swift-swim",
+            "battle-armor",
+            "weak-armor"
+        ],
+        "stats": {
+            "ps": 30,
+            "ataque": 80,
+            "defensa": 90,
+            "special-ataque": 55,
+            "defensa_especial": 45,
+            "velocidad": 55
+        },
+        "animacion": "gifs\\140.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\140.GIF",
+        "mini": "iconos\\140.PNG",
+        "grito": "sounds\\cries\\kabuto.wav"
+    },
+    "kabutops": {
+        "descripcion": "Repliega sus extremidades en el agua para hacerse \n más compacto, y mueve su concha para nadar rápido.",
+        "tipo": [
+            "rock",
+            "water"
+        ],
+        "peso": 40.5,
+        "altura": 1.3,
+        "habilidad": [
+            "swift-swim",
+            "battle-armor",
+            "weak-armor"
+        ],
+        "stats": {
+            "ps": 60,
+            "ataque": 115,
+            "defensa": 105,
+            "special-ataque": 65,
+            "defensa_especial": 70,
+            "velocidad": 80
+        },
+        "animacion": "gifs\\141.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\141.GIF",
+        "mini": "iconos\\141.PNG",
+        "grito": "sounds\\cries\\kabutops.wav"
+    },
+    "aerodactyl": {
+        "descripcion": "Se regeneró a partir de material genético de un \ndinosaurio encontrado en ámbar. Cuando vuela emite \nescandalosos alaridos.",
+        "tipo": [
+            "rock",
+            "flying"
+        ],
+        "peso": 59.0,
+        "altura": 1.8,
+        "habilidad": [
+            "pressure",
+            "rock-head",
+            "unnerve"
+        ],
+        "stats": {
+            "ps": 80,
+            "ataque": 105,
+            "defensa": 65,
+            "special-ataque": 60,
+            "defensa_especial": 75,
+            "velocidad": 130
+        },
+        "animacion": "gifs\\142.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\142.GIF",
+        "mini": "iconos\\142.PNG",
+        "grito": "sounds\\cries\\aerodactyl.wav"
+    },
+    "snorlax": {
+        "descripcion": "No se encuentra satisfecho hasta que no se come \n400 kg de comida cada día. Cuando acaba de comer, \nse queda dormido.",
+        "tipo": [
+            "normal"
+        ],
+        "peso": 460.0,
+        "altura": 2.1,
+        "habilidad": [
+            "gluttony",
+            "thick-fat",
+            "immunity"
+        ],
+        "stats": {
+            "ps": 160,
+            "ataque": 110,
+            "defensa": 65,
+            "special-ataque": 65,
+            "defensa_especial": 110,
+            "velocidad": 30
+        },
+        "animacion": "gifs\\143.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\143.GIF",
+        "mini": "iconos\\143.PNG",
+        "grito": "sounds\\cries\\snorlax.wav"
+    },
+    "articuno": {
+        "descripcion": "Legendario Pokémon pájaro capaz de generar ventiscas congelando la humedad del aire.",
+        "tipo": [
+            "flying",
+            "ice"
+        ],
+        "peso": 55.4,
+        "altura": 1.7,
+        "habilidad": [
+            "pressure",
+            "snow-cloak"
+        ],
+        "stats": {
+            "ps": 90,
+            "ataque": 85,
+            "defensa": 100,
+            "special-ataque": 95,
+            "defensa_especial": 125,
+            "velocidad": 85
+        },
+        "animacion": "gifs\\144.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\144.GIF",
+        "mini": "iconos\\144.PNG",
+        "grito": "sounds\\cries\\articuno.wav"
+    },
+    "zapdos": {
+        "descripcion": "Es un legendario pájaro Pokémon. Dicen que aparece \nentre las nubes lanzando enormes rayos brillantes.",
+        "tipo": [
+            "electric",
+            "flying"
+        ],
+        "peso": 52.6,
+        "altura": 1.6,
+        "habilidad": [
+            "pressure",
+            "static"
+        ],
+        "stats": {
+            "ps": 90,
+            "ataque": 90,
+            "defensa": 85,
+            "special-ataque": 125,
+            "defensa_especial": 90,
+            "velocidad": 100
+        },
+        "animacion": "gifs\\145.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\145.GIF",
+        "mini": "iconos\\145.PNG",
+        "grito": "sounds\\cries\\zapdos.wav"
+    },
+    "moltres": {
+        "descripcion": "Es más conocido como el legendario pájaro de fuego. \nCon cada aleteo crea brillantes llamas.",
+        "tipo": [
+            "flying",
+            "fire"
+        ],
+        "peso": 60.0,
+        "altura": 2.0,
+        "habilidad": [
+            "pressure",
+            "flame-body"
+        ],
+        "stats": {
+            "ps": 90,
+            "ataque": 100,
+            "defensa": 90,
+            "special-ataque": 125,
+            "defensa_especial": 85,
+            "velocidad": 90
+        },
+        "animacion": "gifs\\146.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\146.GIF",
+        "mini": "iconos\\146.PNG",
+        "grito": "sounds\\cries\\moltres.wav"
+    },
+    "dratini": {
+        "descripcion": "Se le llama el Pokémon Espejismo porque son muy \npocos los que lo han visto. Se encontró su muda.",
+        "tipo": [
+            "dragon"
+        ],
+        "peso": 3.3,
+        "altura": 1.8,
+        "habilidad": [
+            "shed-skin",
+            "marvel-scale"
+        ],
+        "stats": {
+            "ps": 41,
+            "ataque": 64,
+            "defensa": 45,
+            "special-ataque": 50,
+            "defensa_especial": 50,
+            "velocidad": 50
+        },
+        "animacion": "gifs\\147.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\147.GIF",
+        "mini": "iconos\\147.PNG",
+        "grito": "sounds\\cries\\dratini.wav"
+    },
+    "dragonair": {
+        "descripcion": "Sus cristalinos orbes parecen darle al Pokémon el \npoder de controlar el clima libremente.",
+        "tipo": [
+            "dragon"
+        ],
+        "peso": 16.5,
+        "altura": 4.0,
+        "habilidad": [
+            "shed-skin",
+            "marvel-scale"
+        ],
+        "stats": {
+            "ps": 61,
+            "ataque": 84,
+            "defensa": 65,
+            "special-ataque": 70,
+            "defensa_especial": 70,
+            "velocidad": 70
+        },
+        "animacion": "gifs\\148.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\148.GIF",
+        "mini": "iconos\\148.PNG",
+        "grito": "sounds\\cries\\dragonair.wav"
+    },
+    "dragonite": {
+        "descripcion": "A pesar del tamaño que tiene y de lo pesado que es, \npuede volar. Es capaz de dar la vuelta al mundo en \nsolo 16 horas.",
+        "tipo": [
+            "flying",
+            "dragon"
+        ],
+        "peso": 210.0,
+        "altura": 2.2,
+        "habilidad": [
+            "multiscale",
+            "inner-focus"
+        ],
+        "stats": {
+            "ps": 91,
+            "ataque": 134,
+            "defensa": 95,
+            "special-ataque": 100,
+            "defensa_especial": 100,
+            "velocidad": 80
+        },
+        "animacion": "gifs\\149.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\149.GIF",
+        "mini": "iconos\\149.PNG",
+        "grito": "sounds\\cries\\dragonite.wav"
+    },
+    "mewtwo": {
+        "descripcion": "Fue creado por un científico tras años de horribles \nexperimentos de ingeniería genética.",
+        "tipo": [
+            "psychic"
+        ],
+        "peso": 122.0,
+        "altura": 2.0,
+        "habilidad": [
+            "pressure",
+            "unnerve"
+        ],
+        "stats": {
+            "ps": 106,
+            "ataque": 110,
+            "defensa": 90,
+            "special-ataque": 154,
+            "defensa_especial": 90,
+            "velocidad": 130
+        },
+        "animacion": "gifs\\150.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\150.GIF",
+        "mini": "iconos\\150.PNG",
+        "grito": "sounds\\cries\\mewtwo.wav"
+    },
+    "mew": {
+        "descripcion": "Varios científicos lo consideran el antecesor de los \nPokémon porque usa todo tipo de movimientos.",
+        "tipo": [
+            "psychic"
+        ],
+        "peso": 4.0,
+        "altura": 0.4,
+        "habilidad": [
+            "synchronize"
+        ],
+        "stats": {
+            "ps": 100,
+            "ataque": 100,
+            "defensa": 100,
+            "ataque_especial": 100,
+            "defensa_especial": 100,
+            "velocidad": 100
+        },
+        "animacion": "gifs\\151.GIF",
+        "femenino": null,
+        "shiny": "gifs_shiny\\151.GIF",
+        "mini": "iconos\\151.PNG",
+        "grito": "sounds\\cries\\mew.wav"
+    }
+}
