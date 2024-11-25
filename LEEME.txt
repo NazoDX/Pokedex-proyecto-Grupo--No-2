@@ -1,0 +1,59 @@
+--------------------------------------------
+BIENVENIDO 
+
+las instruciones son faciles :]
+
+Recuerda extraer el comprimido la carpeta resultante es la que debe de abrir
+en su ide favorito. De preferencia VScode.
+
+Estructura de la carpeta como deberia de ser:
+
+pokedex demo
+│
+|── estructura
+|── fondos
+|── generaciones_txt
+|── gifs
+|── gifs_shiny
+|── gifs_female
+|── iconos
+|── official-artwork
+|── sounds
+|
+|── Pokemon Clasic.ttf
+|── README.md
+|── main.py
+└── lEEME.txt
+
+antes de ejecutar el codigo tener instalado:
+
+
+Pillow ------> pip install pillow
+Pygame ------> pip install pygame
+
+Y tambien el font pokemon.ttf 
+
+asi no tendrias problemas a la hora de ejecutar el proyecto
+
+Uso:
+ejecuta el archivo main.py
+para inciar la pokedex:
+
+Funcionamiento:
+
+Al iniciar la pokedex se muestra la busqueda principal esta es unicamente la de 
+primera generacion, aqui puedes escribir el nombre del pokemon o su numero respectivo,
+tambien sino recuerdas cual buscar puedes buscar en el apartado por tipo donde aparecera 
+x pokemon de ese tipo. Al momento de presionar el boton de busqueda con x pokemon en el 
+buscador se abre una ventana con toda la informacion del pokemon, incluyendo puedes presionar 
+para mostrar su version normal, shiny y femenino si es que existe, otro detalle que al pulsar 
+en el pokemon se escucha su respectivo sonido caracteristico en el juego(unicamente los
+primeros 151 pokemons se pueden encontrar en este apartado por las animaciones gif).
+
+En la esquina superior izquierda hay un boton de opciones donde puedes ingresar al apartado
+de busqueda de pokemon por generacion/region donde es similar al apartado anterior busqueda
+por nombre y numero de pokemon, en este caso puedes buscar un pokemon por su region o generacion
+donde se te mostrara una lista de pokemons de x generacion/region donde abarca los 1025 
+pokemons desde la primera generacion y la novena generacion.
+
+
