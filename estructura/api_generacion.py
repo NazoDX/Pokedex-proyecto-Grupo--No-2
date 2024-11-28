@@ -6,7 +6,7 @@ Este archivo se encarga de las funcionalidades de búsqueda de PokeAPI (por regi
 
 # Definir la clase Api_pokemon (se cambió el nombre para evitar conflictos con otra clase llamada Pokemon)
 class Api_pokemon:
-    def __init__(self, numero, nombre, peso, altura, stats, tipo, habilidad, descripcion, imagen, shiny):
+    def __init__(self, numero, nombre, peso, altura, stats, tipo, habilidad, descripcion, imagen, shiny, grito):
         # Inicializa los atributos del objeto Pokémon con los datos proporcionados
         self.numero = numero
         self.nombre = nombre
@@ -18,6 +18,7 @@ class Api_pokemon:
         self.descripcion = descripcion
         self.imagen = imagen
         self.shiny = shiny
+        self.grito = grito
 
     def to_dict(self):
         # Convierte el objeto Pokémon a un diccionario
@@ -60,6 +61,10 @@ class Api_pokemon:
     
     def get_shiny(self):
         return self.shiny
+    
+    # Metodo para obtener la ruta de sonido
+    def get_grito(self):
+        return self.grito
 
     # Getters específicos para cada estadística
     def get_ps(self):
@@ -120,6 +125,10 @@ def obtener_pokemon_nombre(nombre_pokemon):
     except requests.exceptions.RequestException as e:
         print(f"Error al obtener la descripción del Pokémon con ID {id_pokemon}: {e}")
         descripcion = "Sin descripción"  # Si no se puede obtener la descripción, asignar un valor por defecto
+        
+    # Construir la URL para obtener la ruta de sonido usando el ID
+    sound_url = f"https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/{id_pokemon}.ogg"
+    
 
     # Extraer más información relevante del Pokémon
     nombre = datos_pokemon['name']
@@ -130,9 +139,10 @@ def obtener_pokemon_nombre(nombre_pokemon):
     habilidad = [habilidad_info['ability']['name'] for habilidad_info in datos_pokemon['abilities']]  # Obtener habilidades
     imagen = datos_pokemon['sprites']['other']['official-artwork']['front_default']  # Obtener imagen normal
     shiny = datos_pokemon['sprites']['other']['official-artwork']['front_shiny']  # Obtener imagen shiny
+    grito = sound_url # Ruta de sonido del pokemon
 
     # Crear el objeto Pokémon con todos los datos obtenidos y retornarlo
-    return Api_pokemon(id_pokemon, nombre, peso, altura, stats, tipo, habilidad, descripcion, imagen, shiny)
+    return Api_pokemon(id_pokemon, nombre, peso, altura, stats, tipo, habilidad, descripcion, imagen, shiny, grito)
 
 
 # Función para obtener la información del Pokémon como objeto usando su ID
@@ -140,9 +150,11 @@ def obtener_pokemon_numero(identificador):
     """
     Obtiene los datos del Pokémon a partir de su nombre o número de Pokédex.
     """
-    # Construir las URLs para obtener datos del Pokémon y de su especie
+    # Construir las URLs para obtener datos del Pokémon y de su especie y su sonido
     url_pokemon = f'https://pokeapi.co/api/v2/pokemon/{str(identificador).lower()}/'
     url_species = f'https://pokeapi.co/api/v2/pokemon-species/{str(identificador).lower()}/'
+    sound_url = f"https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/{identificador}.ogg"
+    
     
     # Obtener datos generales del Pokémon
     respuesta_pokemon = requests.get(url_pokemon)
@@ -175,6 +187,7 @@ def obtener_pokemon_numero(identificador):
     habilidad = [habilidad_info['ability']['name'] for habilidad_info in datos_pokemon['abilities']]
     imagen = datos_pokemon['sprites']['other']['official-artwork']['front_default']
     shiny = datos_pokemon['sprites']['other']['official-artwork']['front_shiny']
+    grito = sound_url
 
     # Crear el objeto Pokémon y retornarlo
-    return Api_pokemon(id_pokemon, nombre, peso, altura, stats, tipo, habilidad, descripcion, imagen, shiny)
+    return Api_pokemon(id_pokemon, nombre, peso, altura, stats, tipo, habilidad, descripcion, imagen, shiny, grito)
