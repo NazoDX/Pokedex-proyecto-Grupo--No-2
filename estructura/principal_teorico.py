@@ -888,8 +888,9 @@ def buscar_gen():
             print("Se ha ingresado un número")
             
             # Se permite el número 0 y positivos, se deja el easter egg de MissingNo
-            if busqueda >= 0:
+            if int(busqueda):
                 pokemon = obtener_pokemon_numero(busqueda)  # Busca el Pokémon por su número
+                print(busqueda)
                 
                 # Si el objeto existe
                 if pokemon:  # Si no existe el Pokémon, 'obtener_pokemon_numero' retornaría None
@@ -1108,9 +1109,12 @@ def mostrar_ventana_gen(objeto):
     canvas.create_image(2, 2, image=fondo, anchor="nw")  # Coloca la imagen en la esquina superior izquierda
     canvas.image = fondo  # Mantiene una referencia a la imagen para evitar que se elimine de la memoria
     
+    # Creamos la pocision de la imagen el en lienzo (canvas)
+    imagen_id = canvas.create_image(348, 330, anchor='center') 
     """
     Recibir la imagen del Pokémon para usarla en el lienzo canvas
     """
+    
     # Funcion para mostrar el pokemon en su version normal
     def mostrar_imagen_pokemon():
         # Obtener la URL de la imagen del Pokémon
@@ -1124,7 +1128,7 @@ def mostrar_ventana_gen(objeto):
                 imagen_datos = Image.open(BytesIO(response.content))  # Abre la imagen desde los datos descargados
                 imagen_pokemon = ImageTk.PhotoImage(imagen_datos)  # Convierte la imagen a un formato que Tkinter puede usar
                 # Mostrar la imagen del Pokémon en el lienzo (canvas)
-                canvas.create_image(348, 330, image=imagen_pokemon, anchor='center')  # Coloca la imagen en el lienzo
+                canvas.itemconfig(imagen_id, image=imagen_pokemon) # Coloca la imagen en el lienzo su variable se usara para un bind
                 canvas.image = imagen_pokemon  # Mantiene una referencia a la imagen para evitar que se elimine de la memoria
             else:
                 # En caso de que no se pueda cargar la imagen
@@ -1132,7 +1136,8 @@ def mostrar_ventana_gen(objeto):
         except Exception as e:
             # En caso de que no se pudo descargar la imagen
             print(f"Error al intentar descargar la imagen: {e}")
-    
+
+
     # Funcion para mostrar el pokemon en su version shiny
     def mostrar_imagen_pokemon_shiny():
         # Obtener la URL de la imagen del Pokémon
@@ -1146,15 +1151,43 @@ def mostrar_ventana_gen(objeto):
                 imagen_datos = Image.open(BytesIO(response.content))  # Abre la imagen desde los datos descargados
                 imagen_pokemon = ImageTk.PhotoImage(imagen_datos)  # Convierte la imagen a un formato que Tkinter puede usar
                 # Mostrar la imagen del Pokémon en el lienzo (canvas)
-                canvas.create_image(348, 330, image=imagen_pokemon, anchor='center')  # Coloca la imagen en el lienzo
+                canvas.itemconfig(imagen_id, image=imagen_pokemon) # Coloca la imagen en el lienzo su variable se usara para un bind
                 canvas.image = imagen_pokemon  # Mantiene una referencia a la imagen para evitar que se elimine de la memoria
+                
+
             else:
                 # En caso de que no se pueda cargar la imagen
                 print(f"Error al cargar la imagen del Pokémon. Código de estado: {response.status_code}")
         except Exception as e:
             # En caso de que no se pudo descargar la imagen
             print(f"Error al intentar descargar la imagen: {e}")
-                
+            
+    # Por defecto se mostrara la version normal
+    mostrar_imagen_pokemon()  
+    
+    def sonido_pokemon(event):
+        sound_url = objeto.get_grito()
+        
+        # Hacer la solicitud para obtener el sonido
+        response = requests.get(sound_url)
+        print(f"Sonido de {nombre},{objeto.get_grito()}")
+        
+        if response.status_code == 200:
+            # Crear un objeto de flujo de bytes en memoria
+            sound_data = BytesIO(response.content)
+            
+            # Inicializar pygame mixer
+            pygame.mixer.init()
+            
+            # Cargar el sonido en pygame mixer
+            pokemon_sound = pygame.mixer.Sound(sound_data)
+            
+            # Reproducir el sonido
+            pokemon_sound.play()
+            
+    # Reproducir el sonido al iniciar la pantalla
+    sonido_pokemon(None)
+    
     # Boton ver pokemon normal        
     boton_mostrar_normal = tk.Button(ventana_info, text="Mostrar Normal",command=mostrar_imagen_pokemon,font=("Pokemon Classic",7))
     boton_mostrar_normal.place(x=50, y=40)
@@ -1167,9 +1200,6 @@ def mostrar_ventana_gen(objeto):
     boton_salir = tk.Button(ventana_info, text="Salir", command=ventana_info.destroy,font=("Pokemon Classic",7))
     boton_salir.place(x=1260, y=40)
     
-    
-    # Por defecto se mostrara la version normal
-    mostrar_imagen_pokemon()  
     """
     Etiquetas con la información del objeto (Pokémon)
     """
@@ -1227,6 +1257,9 @@ def mostrar_ventana_gen(objeto):
     
     #b9b9b9 gris claro
     """
+    
+    # reporducir el audio del pokemon a la hora de hacer click en el
+    canvas.tag_bind(imagen_id, "<Button-1>", sonido_pokemon)
     
     # Llamar a la función mostrando la ventana
     ventana_info.mainloop()
